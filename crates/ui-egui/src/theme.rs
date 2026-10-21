@@ -8,8 +8,8 @@ use egui::{Align2, Color32, CornerRadius, FontData, FontDefinitions, FontFamily,
 
 /// MailCraft's own colour, the teal of its icon (and its darker ink for text on light
 /// backgrounds). The interface itself is neutral greys with a blue accent: see [`Tokens`].
-pub const APP_COLOR: Color32 = Color32::from_rgb(0x0B, 0x7F, 0xAB);
-pub const APP_INK: Color32 = Color32::from_rgb(0x08, 0x62, 0x88);
+pub const APP_COLOR: Color32 = Color32::from_rgb(0x13, 0x8E, 0xD2);
+pub const APP_INK: Color32 = Color32::from_rgb(0x10, 0x7E, 0xC5);
 
 /// The interface theme setting (File › Options › General): `System`, which follows the OS (or
 /// browser) light/dark appearance live and is what a new installation starts with, or a fixed
@@ -212,8 +212,8 @@ impl Tokens {
             hover: Color32::from_rgb(0xE9, 0xE9, 0xE9),
             pressed: Color32::from_rgb(0xD6, 0xD6, 0xD6),
             checked: Color32::from_rgb(0xD6, 0xE8, 0xF8),
-            accent: Color32::from_rgb(0x0F, 0x6C, 0xBD),
-            accent_text: Color32::from_rgb(0x11, 0x5E, 0xA3),
+            accent: Color32::from_rgb(0x13, 0x8E, 0xD2),
+            accent_text: Color32::from_rgb(0x10, 0x7E, 0xC5),
             on_accent: Color32::WHITE,
             input: Color32::WHITE,
             input_border: Color32::from_rgb(0xC4, 0xC4, 0xC4),
@@ -261,8 +261,8 @@ impl Tokens {
             hover: Color32::from_rgb(0x38, 0x38, 0x38),
             pressed: Color32::from_rgb(0x4A, 0x4A, 0x4A),
             checked: Color32::from_rgb(0x1F, 0x3B, 0x57),
-            accent: Color32::from_rgb(0x58, 0xB8, 0xFE),
-            accent_text: Color32::from_rgb(0x82, 0xC7, 0xFF),
+            accent: Color32::from_rgb(0x13, 0x8E, 0xD2),
+            accent_text: Color32::from_rgb(0x58, 0xB8, 0xFE),
             on_accent: Color32::from_rgb(0x0A, 0x18, 0x26),
             input: Color32::from_rgb(0x1F, 0x1F, 0x1F),
             input_border: Color32::from_rgb(0x66, 0x66, 0x66),
