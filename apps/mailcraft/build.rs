@@ -17,11 +17,7 @@ fn main() {
     }
     let mut res = winresource::WindowsResource::new();
     let branded_icon = "../../assets/sorriso-server/sorriso-server.ico";
-    let icon_path = if std::path::Path::new(branded_icon).exists() {
-        branded_icon
-    } else {
-        "../../assets/app-icon/mailcraft.ico"
-    };
+    let icon_path = if std::path::Path::new(branded_icon).exists() { branded_icon } else { "../../assets/app-icon/mailcraft.ico" };
     res.set_icon(icon_path)
         .set("ProductName", "Sorriso Server Mail")
         .set("FileDescription", "Sorriso Server Mail - e-mail, calendario e contatos")
