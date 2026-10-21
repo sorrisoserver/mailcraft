@@ -1128,13 +1128,11 @@ fn services(
         microsoft_client_id: microsoft_client_id(),
         // Whether a new version is out: GitHub is asked about this build's repository and told
         // nothing else, once a day when the owner wants that, or when they press Check for Updates.
-        update_check: Some(Box::new(move |pre_releases| {
-            background(&update_ctx, "update check", move || mailcraft_net::update::latest(pre_releases).map_err(|e| e.to_string()))
-        })),
+        update_check: None, // Sorriso Server Mail: do not check the upstream MailCraft release feed.
         // A build that isn't one of the project's packages (they name their commit) never asks.
         development_build: build_sha() == "dev",
         // A copy that updates itself downloads a newer release, checked by its signature.
-        update_download: updates.map(|updates| update_download(&download_ctx, updates.clone())),
+        update_download: None, // Never install an upstream MailCraft package over the branded application.
         updates_turned_off_by_organisation: updater::turned_off_by_organisation(),
         // The system's language, for an interface language left on Automatic.
         system_locale: sys_locale::get_locale(),
