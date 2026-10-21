@@ -1239,7 +1239,7 @@ fn already_open() {
     let _ = rfd::MessageDialog::new()
         .set_level(rfd::MessageLevel::Warning)
         .set_title("Sorriso Server Mail")
-        .set_description("MailCraft already has this mailbox open, but it isn't answering. Close that window (or end MailCraft in the system's task list) and start MailCraft again.")
+        .set_description("Sorriso Server Mail ja esta utilizando esta caixa postal. Feche a outra janela antes de tentar novamente.")
         .show();
 }
 
@@ -1335,7 +1335,7 @@ fn main() -> eframe::Result {
     let mut options = eframe::NativeOptions {
         viewport: egui::ViewportBuilder::default()
             .with_title("Sorriso Server Mail")
-            .with_app_id("io.github.billsecond.mailcraft")
+            .with_app_id("br.com.sorrisoserver.sorrisomail")
             .with_inner_size([1440.0, 920.0])
             .with_min_inner_size([760.0, 480.0])
             .with_drag_and_drop(true)
