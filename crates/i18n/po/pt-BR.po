@@ -134,3 +134,496 @@ msgstr "Ajuda"
 
 msgid "Refresh"
 msgstr "Atualizar"
+
+# Traduções adicionais dos textos da interface original
+msgid "About MailCraft"
+msgstr "Sobre o Sorriso Server Mail"
+
+msgid "Account Settings"
+msgstr "Configurações da Conta"
+
+msgid "Actions"
+msgstr "Ações"
+
+msgid "Active"
+msgstr "Ativo"
+
+msgid "Add"
+msgstr "Adicionar"
+
+msgid "Add Calendar"
+msgstr "Adicionar Calendário"
+
+msgid "Add Rule"
+msgstr "Adicionar Regra"
+
+msgid "Add Sender"
+msgstr "Adicionar Remetente"
+
+msgid "Add Sender to Contacts"
+msgstr "Adicionar Remetente aos Contatos"
+
+msgid "Add Shared Mailbox"
+msgstr "Adicionar Caixa Postal Compartilhada"
+
+msgid "Add a task"
+msgstr "Adicionar uma tarefa"
+
+msgid "Add an account"
+msgstr "Adicionar uma conta"
+
+msgid "Add an account first"
+msgstr "Adicione uma conta primeiro"
+
+msgid "Add another account"
+msgstr "Adicionar outra conta"
+
+msgid "Add another e-mail address"
+msgstr "Adicionar outro endereço de e-mail"
+
+msgid "Add another phone number"
+msgstr "Adicionar outro telefone"
+
+msgid "Add to Contacts"
+msgstr "Adicionar aos Contatos"
+
+msgid "Add to Favorites"
+msgstr "Adicionar aos Favoritos"
+
+msgid "Add to Tasks"
+msgstr "Adicionar às Tarefas"
+
+msgid "Address"
+msgstr "Endereço"
+
+msgid "Advanced options"
+msgstr "Opções avançadas"
+
+msgid "After"
+msgstr "Depois"
+
+msgid "All"
+msgstr "Todos"
+
+msgid "All Attendees"
+msgstr "Todos os Participantes"
+
+msgid "All Categories"
+msgstr "Todas as Categorias"
+
+msgid "All Mailboxes"
+msgstr "Todas as Caixas Postais"
+
+msgid "All day"
+msgstr "O dia inteiro"
+
+msgid "Allow"
+msgstr "Permitir"
+
+msgid "Already in your contacts"
+msgstr "Já está nos seus contatos"
+
+msgid "Any other mail server"
+msgstr "Outro servidor de e-mail"
+
+msgid "Apply"
+msgstr "Aplicar"
+
+msgid "Appointment"
+msgstr "Compromisso"
+
+msgid "Appointment Recurrence"
+msgstr "Recorrência do Compromisso"
+
+msgid "Approval Needed"
+msgstr "Aprovação Necessária"
+
+msgid "Apr"
+msgstr "Abr"
+
+msgid "April"
+msgstr "Abril"
+
+msgid "Arrange"
+msgstr "Organizar"
+
+msgid "Arrange By"
+msgstr "Organizar por"
+
+msgid "As recipients see it"
+msgstr "Como os destinatários visualizam"
+
+msgid "Attach"
+msgstr "Anexar"
+
+msgid "Attach File"
+msgstr "Anexar Arquivo"
+
+msgid "Attendees"
+msgstr "Participantes"
+
+msgid "Aug"
+msgstr "Ago"
+
+msgid "August"
+msgstr "Agosto"
+
+msgid "Automatic"
+msgstr "Automático"
+
+msgid "Back"
+msgstr "Voltar"
+
+msgid "Basic Text"
+msgstr "Texto Básico"
+
+msgid "Birthday"
+msgstr "Aniversário"
+
+msgid "Block Sender"
+msgstr "Bloquear Remetente"
+
+msgid "Bold"
+msgstr "Negrito"
+
+msgid "Busy"
+msgstr "Ocupado"
+
+msgid "By"
+msgstr "Por"
+
+msgid "By Date"
+msgstr "Por Data"
+
+msgid "By From"
+msgstr "Por Remetente"
+
+msgid "By Importance"
+msgstr "Por Importância"
+
+msgid "By Size"
+msgstr "Por Tamanho"
+
+msgid "By Subject"
+msgstr "Por Assunto"
+
+msgid "Calendar Changes to Send"
+msgstr "Alterações do Calendário para Enviar"
+
+msgid "Calendar Colour"
+msgstr "Cor do Calendário"
+
+msgid "Calendar and contacts"
+msgstr "Calendário e contatos"
+
+msgid "Cancel Invitation"
+msgstr "Cancelar Convite"
+
+msgid "Cancel Meeting"
+msgstr "Cancelar Reunião"
+
+msgid "Cancel Send/Receive"
+msgstr "Cancelar Envio/Recebimento"
+
+msgid "Cancel Sign-In"
+msgstr "Cancelar Entrada"
+
+msgid "Cancelled"
+msgstr "Cancelado"
+
+msgid "Categories"
+msgstr "Categorias"
+
+msgid "Categorize"
+msgstr "Categorizar"
+
+msgid "Change account settings"
+msgstr "Alterar configurações da conta"
+
+msgid "Change the colour"
+msgstr "Alterar a cor"
+
+msgid "Check Names"
+msgstr "Verificar Nomes"
+
+msgid "Check Now"
+msgstr "Verificar Agora"
+
+msgid "Check for Updates"
+msgstr "Verificar Atualizações"
+
+msgid "Check for New Versions"
+msgstr "Verificar Novas Versões"
+
+msgid "Check for new versions"
+msgstr "Verificar novas versões"
+
+msgid "Copy"
+msgstr "Copiar"
+
+msgid "Copy to Folder"
+msgstr "Copiar para Pasta"
+
+msgid "Cut"
+msgstr "Recortar"
+
+msgid "Day"
+msgstr "Dia"
+
+msgid "Dec"
+msgstr "Dez"
+
+msgid "December"
+msgstr "Dezembro"
+
+msgid "Default"
+msgstr "Padrão"
+
+msgid "Details"
+msgstr "Detalhes"
+
+msgid "Done"
+msgstr "Concluído"
+
+msgid "Edit"
+msgstr "Editar"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "Empty Folder"
+msgstr "Esvaziar Pasta"
+
+msgid "Export"
+msgstr "Exportar"
+
+msgid "Favorites"
+msgstr "Favoritos"
+
+msgid "Feb"
+msgstr "Fev"
+
+msgid "February"
+msgstr "Fevereiro"
+
+msgid "Find"
+msgstr "Localizar"
+
+msgid "Font"
+msgstr "Fonte"
+
+msgid "Friday"
+msgstr "Sexta-feira"
+
+msgid "General"
+msgstr "Geral"
+
+msgid "High"
+msgstr "Alta"
+
+msgid "Import"
+msgstr "Importar"
+
+msgid "Jan"
+msgstr "Jan"
+
+msgid "January"
+msgstr "Janeiro"
+
+msgid "Jul"
+msgstr "Jul"
+
+msgid "July"
+msgstr "Julho"
+
+msgid "Jun"
+msgstr "Jun"
+
+msgid "June"
+msgstr "Junho"
+
+msgid "Low"
+msgstr "Baixa"
+
+msgid "Mail"
+msgstr "E-mail"
+
+msgid "Mark as Read"
+msgstr "Marcar como Lida"
+
+msgid "Mark as Unread"
+msgstr "Marcar como Não Lida"
+
+msgid "Mar"
+msgstr "Mar"
+
+msgid "March"
+msgstr "Março"
+
+msgid "May"
+msgstr "Maio"
+
+msgid "Meeting"
+msgstr "Reunião"
+
+msgid "Message"
+msgstr "Mensagem"
+
+msgid "Messages"
+msgstr "Mensagens"
+
+msgid "Monday"
+msgstr "Segunda-feira"
+
+msgid "Month"
+msgstr "Mês"
+
+msgid "Move"
+msgstr "Mover"
+
+msgid "Move to Folder"
+msgstr "Mover para Pasta"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "New"
+msgstr "Novo"
+
+msgid "New Appointment"
+msgstr "Novo Compromisso"
+
+msgid "New Contact"
+msgstr "Novo Contato"
+
+msgid "New Folder"
+msgstr "Nova Pasta"
+
+msgid "New Meeting"
+msgstr "Nova Reunião"
+
+msgid "New Task"
+msgstr "Nova Tarefa"
+
+msgid "No"
+msgstr "Não"
+
+msgid "None"
+msgstr "Nenhum"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Notes"
+msgstr "Anotações"
+
+msgid "Nov"
+msgstr "Nov"
+
+msgid "November"
+msgstr "Novembro"
+
+msgid "Oct"
+msgstr "Out"
+
+msgid "October"
+msgstr "Outubro"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Open"
+msgstr "Abrir"
+
+msgid "Other"
+msgstr "Outro"
+
+msgid "Password"
+msgstr "Senha"
+
+msgid "Paste"
+msgstr "Colar"
+
+msgid "Redo"
+msgstr "Refazer"
+
+msgid "Remove"
+msgstr "Remover"
+
+msgid "Rename"
+msgstr "Renomear"
+
+msgid "Required"
+msgstr "Obrigatório"
+
+msgid "Saturday"
+msgstr "Sábado"
+
+msgid "Select All"
+msgstr "Selecionar Tudo"
+
+msgid "Send/Receive"
+msgstr "Enviar/Receber"
+
+msgid "Sep"
+msgstr "Set"
+
+msgid "September"
+msgstr "Setembro"
+
+msgid "Sign In"
+msgstr "Entrar"
+
+msgid "Size"
+msgstr "Tamanho"
+
+msgid "Start"
+msgstr "Iniciar"
+
+msgid "Stop"
+msgstr "Parar"
+
+msgid "Sunday"
+msgstr "Domingo"
+
+msgid "Thursday"
+msgstr "Quinta-feira"
+
+msgid "Time"
+msgstr "Hora"
+
+msgid "Today"
+msgstr "Hoje"
+
+msgid "Tomorrow"
+msgstr "Amanhã"
+
+msgid "Tuesday"
+msgstr "Terça-feira"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Undo"
+msgstr "Desfazer"
+
+msgid "Unread"
+msgstr "Não Lida"
+
+msgid "Username"
+msgstr "Nome de usuário"
+
+msgid "Wednesday"
+msgstr "Quarta-feira"
+
+msgid "Week"
+msgstr "Semana"
+
+msgid "Yesterday"
+msgstr "Ontem"
+
+msgid "Yes"
+msgstr "Sim"
