@@ -43,3 +43,12 @@ A base MailCraft declara licença `MIT OR Apache-2.0`. Preservar os avisos exigi
 - Repositório oficial do produto: https://github.com/sorrisoserver/sorrisomail
 - Origem preservada como fork: https://github.com/UCS-Care-Group/mailcraft
 - Nome de pasta/repositório e nome interno das crates Rust são independentes; a renomeação externa não exige refatoração completa dos módulos.
+
+## Separação da identidade — etapa seguinte
+- Nome visível do aplicativo: Sorriso Server Mail.
+- ID de janela alterado para `br.com.sorrisoserver.sorrisomail`, sem renomear as crates internas Rust para evitar regressões desnecessárias.
+- Metadados do Windows atualizados com `InternalName=SorrisoServerMail`.
+- Mensagem de janela de caixa postal já aberta personalizada.
+- Os arquivos de logo/ícone originais estão preparados fora do repositório e a integração dos binários ainda está pendente.
+- Pendente revisar diretórios de credenciais/dados, associação de arquivos, instalador, assinatura e atualização antes do uso real.
+- O workflow de teste Windows está configurado, mas isso não equivale a compilação aprovada.
