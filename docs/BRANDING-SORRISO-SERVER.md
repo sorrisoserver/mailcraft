@@ -66,3 +66,10 @@ A base MailCraft declara licença `MIT OR Apache-2.0`. Preservar os avisos exigi
 - Textos técnicos que integram protocolos, formatos e comandos internos podem permanecer com identificadores originais para não quebrar compatibilidade.
 - A biblioteca atual só contém catálogos en/fr/de/es/it; logo, **a tradução pt-BR ainda não foi implementada**. Tradução parcial com retorno ao inglês não satisfaz o requisito.
 - Antes de considerar a versão pronta, criar o catálogo pt-BR completo, fixar o locale independentemente do idioma do Windows, remover o seletor, testar telas e adicionar um teste que identifique frases em inglês remanescentes.
+
+## Funcionalidade planejada — licenciamento comercial anual (21/10/2026)
+- O proprietário deseja distribuir Sorriso Server Mail a clientes com chave/licença válida por 1 ano e renovação anual.
+- Proposta: ativação por chave, painel administrativo, validação HTTPS, licenças assinadas digitalmente, prazo offline limitado, renovação sem reinstalação, bloqueio/revogação e transferência de dispositivo.
+- Recomendação de preservação de dados: após vencimento, manter acesso de leitura/exportação local, mesmo que recursos sincronizados sejam suspensos.
+- **Pendente aprovação:** métrica de licenciamento por computador, por usuário ou por empresa e quantidade de ativações. Sem implementação nesta etapa.
+- A administração de assinaturas e a cobrança deverão ser desenvolvidas separadamente do cliente, com verificação de segurança e requisitos de privacidade/LGPD.
