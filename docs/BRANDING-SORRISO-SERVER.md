@@ -38,3 +38,8 @@ A base MailCraft declara licença `MIT OR Apache-2.0`. Preservar os avisos exigi
 - `apps/mailcraft/build.rs`: nome do produto, descrição e empresa alterados nos recursos VERSIONINFO Windows.
 - O executável, os ícones embutidos, o ID de aplicativo (`io.github.billsecond.mailcraft`) e os componentes de atualização/instalação ainda mantêm identificadores originais. **Não distribuir como versão final antes de revisar esses pontos**, especialmente atualizações automáticas, caminhos de dados e associações de arquivos.
 - Compilação e testes ainda não executados; nenhuma alegação de funcionamento validado.
+
+## Repositório renomeado
+- Repositório oficial do produto: https://github.com/sorrisoserver/sorrisomail
+- Origem preservada como fork: https://github.com/UCS-Care-Group/mailcraft
+- Nome de pasta/repositório e nome interno das crates Rust são independentes; a renomeação externa não exige refatoração completa dos módulos.
