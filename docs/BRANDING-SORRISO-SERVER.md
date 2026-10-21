@@ -80,3 +80,11 @@ A base MailCraft declara licença `MIT OR Apache-2.0`. Preservar os avisos exigi
 - `crates/ui-egui/src/backstage.rs`: seletor de idioma retirado das opções.
 - `crates/ui-egui/src/lib.rs`: idioma em vigor fixado em `BrazilianPortuguese`; comando `ui.language` não permite mudar para outro idioma.
 - **Atenção**: ainda faltam traduções e os testes automatizados não estavam concluídos no momento da alteração. Não declarar a interface 100% em português até concluir o catálogo e revisar visualmente todas as telas.
+
+## Revisão visual em 21/10/2026 — seis capturas reais do Windows
+- Título da janela: nome comercial agora aparece, mas pastas e caixa postal ainda em inglês.
+- Barra de opções, guias Enviar/Receber, Pasta, Exibir e página Informações exibem inglês residual.
+- Assistente de adição de conta ainda renderizava 'MailCraft' diretamente no código; corrigido em `account_setup.rs`.
+- Catálogo acrescentado com traduções `msgctxt "folder"`, exigidas pelo nome dos diretórios padrão.
+- **Bloqueio crítico identificado**: a versão Alpha salva dados em `%APPDATA%\\MailCraft` (não usar clientes reais até termos diretório isolado `Sorriso Server Mail`, migração opcional segura e testes). Preservar arquivos existentes; não mudar o caminho precipitadamente sem plano de migração.
+- Essas correções dependem de nova compilação e inspeção visual. Não declarar tradução integral concluída.
