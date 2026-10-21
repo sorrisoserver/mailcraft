@@ -420,7 +420,7 @@ fn run_window(options: eframe::NativeOptions, creator: eframe::AppCreator<'_>) -
             seen.store(true, std::sync::atomic::Ordering::Relaxed);
             creator(cc)
         });
-        let mut app = WithTokens(eframe::create_native("MailCraft", options, creator, &event_loop));
+        let mut app = WithTokens(eframe::create_native("Sorriso Server Mail", options, creator, &event_loop));
         event_loop.run_app(&mut app)?;
         if started.load(std::sync::atomic::Ordering::Relaxed) {
             Ok(())
@@ -429,7 +429,7 @@ fn run_window(options: eframe::NativeOptions, creator: eframe::AppCreator<'_>) -
         }
     }
     #[cfg(not(any(target_os = "linux", target_os = "freebsd")))]
-    eframe::run_native("MailCraft", options, creator)
+    eframe::run_native("Sorriso Server Mail", options, creator)
 }
 
 /// Sign an account's owner in: quietly with what was kept from last time when there is any, on
@@ -1240,7 +1240,7 @@ fn background_saver(ctx: &egui::Context, path: &std::path::Path) -> Option<Box<d
 fn already_open() {
     let _ = rfd::MessageDialog::new()
         .set_level(rfd::MessageLevel::Warning)
-        .set_title("MailCraft")
+        .set_title("Sorriso Server Mail")
         .set_description("MailCraft already has this mailbox open, but it isn't answering. Close that window (or end MailCraft in the system's task list) and start MailCraft again.")
         .show();
 }
@@ -1336,7 +1336,7 @@ fn main() -> eframe::Result {
     }
     let mut options = eframe::NativeOptions {
         viewport: egui::ViewportBuilder::default()
-            .with_title("MailCraft")
+            .with_title("Sorriso Server Mail")
             .with_app_id("io.github.billsecond.mailcraft")
             .with_inner_size([1440.0, 920.0])
             .with_min_inner_size([760.0, 480.0])
@@ -1433,7 +1433,7 @@ fn main() -> eframe::Result {
             // macOS: an app menu whose Quit (⌘Q) asks the window to close, so a message being
             // written is asked about first (winit's own quits without asking). Here, after winit
             // has built its menu. Elsewhere it does nothing.
-            if let Err(e) = craft_quit::install_app_menu(&cc.egui_ctx, "MailCraft") {
+            if let Err(e) = craft_quit::install_app_menu(&cc.egui_ctx, "Sorriso Server Mail") {
                 log::warn!("the app menu couldn't be set up, so Quit won't ask about unsaved work: {e}");
             }
             Ok(Box::new(App(
