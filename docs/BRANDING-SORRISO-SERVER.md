@@ -73,3 +73,10 @@ A base MailCraft declara licença `MIT OR Apache-2.0`. Preservar os avisos exigi
 - Recomendação de preservação de dados: após vencimento, manter acesso de leitura/exportação local, mesmo que recursos sincronizados sejam suspensos.
 - **Modelo aprovado:** uma licença por computador, com múltiplas contas de e-mail na mesma instalação e validade de 365 dias por ativação/renovação. Possibilidade futura de vender pacotes de licenças, cada uma vinculada a um dispositivo. Sem implementação nesta etapa.
 - A administração de assinaturas e a cobrança deverão ser desenvolvidas separadamente do cliente, com verificação de segurança e requisitos de privacidade/LGPD.
+
+## Implementação inicial do pt-BR (21/10/2026)
+- `crates/i18n/src/lib.rs`: incluído `BrazilianPortuguese` com código `pt-BR`.
+- `crates/i18n/po/pt-BR.po`: catálogo inicial de termos mais visíveis (ainda incompleto).
+- `crates/ui-egui/src/backstage.rs`: seletor de idioma retirado das opções.
+- `crates/ui-egui/src/lib.rs`: idioma em vigor fixado em `BrazilianPortuguese`; comando `ui.language` não permite mudar para outro idioma.
+- **Atenção**: ainda faltam traduções e os testes automatizados não estavam concluídos no momento da alteração. Não declarar a interface 100% em português até concluir o catálogo e revisar visualmente todas as telas.
