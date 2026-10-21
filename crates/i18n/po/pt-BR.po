@@ -1175,3 +1175,24 @@ msgstr "Fixadas"
 
 msgid "Unpinned"
 msgstr "Não fixadas"
+
+msgid "Sign in to your account"
+msgstr "Entre na sua conta"
+
+msgid "Once it has worked, your system's credential store keeps it for next time. It is never written to the mailbox."
+msgstr "Após a primeira conexão, o armazenamento seguro de credenciais do sistema guarda a senha para os próximos acessos. Ela nunca é gravada na caixa postal."
+
+msgid "New\nEmail"
+msgstr "Novo\ne-mail"
+
+msgid "Reply\nAll"
+msgstr "Responder\na todos"
+
+msgid "Unread/\nRead"
+msgstr "Não lida/\nLida"
+
+msgid "Filter\nEmail"
+msgstr "Filtrar\ne-mails"
+
+msgid "Send/Receive\nAll Folders"
+msgstr "Enviar/receber\ntodas as pastas"
