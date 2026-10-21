@@ -806,3 +806,204 @@ msgstr "Informações"
 
 msgid "Type your e-mail address"
 msgstr "Digite seu endereço de e-mail"
+
+msgid "No rules yet. A rule files, flags or deletes mail as it arrives."
+msgstr "Nenhuma regra cadastrada. As regras organizam, sinalizam ou excluem e-mails recebidos."
+
+msgid "New rule"
+msgstr "Nova regra"
+
+msgid "When"
+msgstr "Quando"
+
+msgid "Do"
+msgstr "Fazer"
+
+msgid "From contains"
+msgstr "Remetente contém"
+
+msgid "Text to look for"
+msgstr "Texto a pesquisar"
+
+msgid "+ condition"
+msgstr "+ condição"
+
+msgid "+ action"
+msgstr "+ ação"
+
+msgid "Move to folder"
+msgstr "Mover para pasta"
+
+msgid "Stop processing more rules"
+msgstr "Parar de processar outras regras"
+
+msgid "A rule needs a name, and something to look for."
+msgstr "A regra precisa de um nome e de uma condição."
+
+msgid "Let me set up my account manually"
+msgstr "Quero configurar minha conta manualmente"
+
+msgid "Your name"
+msgstr "Seu nome"
+
+msgid "As the people you write to see it"
+msgstr "Como será exibido aos destinatários"
+
+msgid "Interface theme"
+msgstr "Tema da interface"
+
+msgid "Interface size"
+msgstr "Tamanho da interface"
+
+msgid "Use system setting"
+msgstr "Usar configuração do sistema"
+
+msgid "Mark a message as read when it is opened in the reading pane"
+msgstr "Marcar mensagem como lida quando aberta no painel de leitura"
+
+msgid "Include the original message when replying"
+msgstr "Incluir a mensagem original na resposta"
+
+msgid "Preview lines in the message list"
+msgstr "Linhas de pré-visualização na lista"
+
+msgid "Messages to download per folder"
+msgstr "Mensagens para baixar por pasta"
+
+msgid "Desktop alerts"
+msgstr "Notificações na área de trabalho"
+
+msgid "Show a desktop alert when new mail arrives"
+msgstr "Mostrar notificação quando chegar um novo e-mail"
+
+msgid "Show a desktop alert for reminders"
+msgstr "Mostrar notificações de lembretes"
+
+msgid "Pictures in mail"
+msgstr "Imagens nas mensagens"
+
+msgid "Download pictures in mail automatically"
+msgstr "Baixar imagens dos e-mails automaticamente"
+
+msgid "Remember passwords and sign-ins on this computer"
+msgstr "Lembrar senhas e logins neste computador"
+
+msgid "Microsoft application ID"
+msgstr "ID do aplicativo Microsoft"
+
+msgid "Send and receive automatically"
+msgstr "Enviar e receber automaticamente"
+
+msgid "Use a 12-hour clock (3:05 PM)"
+msgstr "Usar relógio de 12 horas (3:05 PM)"
+
+msgid "Week starts on"
+msgstr "A semana começa em"
+
+msgid "Working hours"
+msgstr "Horário de trabalho"
+
+msgid "Use my own working hours"
+msgstr "Usar meu horário de trabalho"
+
+msgid "Reminder for new appointments"
+msgstr "Lembrete para novos compromissos"
+
+msgid "Time scale"
+msgstr "Intervalo de tempo"
+
+msgid "Bring in"
+msgstr "Importar"
+
+msgid "Save out"
+msgstr "Exportar"
+
+msgid "Start over"
+msgstr "Recomeçar"
+
+msgid "Open Mailbox File"
+msgstr "Abrir Arquivo da Caixa Postal"
+
+msgid "Save Mailbox As"
+msgstr "Salvar Caixa Postal Como"
+
+msgid "Save Calendar"
+msgstr "Salvar Calendário"
+
+msgid "Export Contacts"
+msgstr "Exportar Contatos"
+
+msgid "Sample Mailbox"
+msgstr "Caixa Postal de Exemplo"
+
+msgid "Empty Mailbox"
+msgstr "Esvaziar Caixa Postal"
+
+msgid "Choose default signatures"
+msgstr "Escolher assinaturas padrão"
+
+msgid "Create from details"
+msgstr "Criar com os dados"
+
+msgid "Make the signature from these details"
+msgstr "Criar assinatura com esses dados"
+
+msgid "Job title"
+msgstr "Cargo"
+
+msgid "Organisation"
+msgstr "Organização"
+
+msgid "Mobile"
+msgstr "Celular"
+
+msgid "Website"
+msgstr "Site"
+
+msgid "Preview"
+msgstr "Pré-visualização"
+
+msgid "New messages"
+msgstr "Novas mensagens"
+
+msgid "Replies and forwards"
+msgstr "Respostas e encaminhamentos"
+
+msgid "Insert Picture"
+msgstr "Inserir Imagem"
+
+msgid "Paste Picture"
+msgstr "Colar Imagem"
+
+msgid "In line with text"
+msgstr "Alinhada ao texto"
+
+msgid "Colour"
+msgstr "Cor"
+
+msgid "Link"
+msgstr "Link"
+
+msgid "Pictures: {n} KB of {max} KB"
+msgstr "Imagens: {n} KB de {max} KB"
+
+msgid "Contributors"
+msgstr "Colaboradores"
+
+msgid "Show Contributors"
+msgstr "Mostrar Colaboradores"
+
+msgid "What it is made of"
+msgstr "Como é desenvolvido"
+
+msgid "Your mail stays yours"
+msgstr "Seus e-mails continuam sendo seus"
+
+msgid "Scripts and agents"
+msgstr "Scripts e agentes"
+
+msgid "Search Commands"
+msgstr "Pesquisar Comandos"
+
+msgid "No rules yet."
+msgstr "Nenhuma regra cadastrada."
