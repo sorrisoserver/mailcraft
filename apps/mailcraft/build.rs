@@ -21,7 +21,7 @@ fn main() {
         .set("CompanyName", "Sorriso Server")
         .set("LegalCopyright", "Copyright (c) the MailCraft authors. MIT OR Apache-2.0.")
         .set("OriginalFilename", "mailcraft.exe")
-        .set("InternalName", "mailcraft");
+        .set("InternalName", "SorrisoServerMail");
     if let Err(e) = res.compile() {
         if std::env::var_os("MAILCRAFT_REQUIRE_WINRES").is_some() {
             eprintln!("embedding Windows resources failed: {e}");
