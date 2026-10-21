@@ -22,7 +22,7 @@ jobs:
             throw 'Logo oficial ausente. Adicione assets/sorriso-server/logo-oficial.png antes de gerar a versao personalizada.'
           }
       - name: Set up Python
-        uses: actions/setup-python@a309fad92780e6d2bc8d8e3b32a6e7b97919a1f5 # v6.0.0
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
           cache: 'pip'
