@@ -32,6 +32,12 @@ jobs:
           if (-not (Test-Path 'assets/sorriso-server/logo-oficial.jpeg')) {
             throw 'Logo oficial ausente. Adicione assets/sorriso-server/logo-oficial.jpeg antes de gerar a versao personalizada.'
           }
+      - name: Require Brazilian Portuguese catalogue
+        shell: pwsh
+        run: |
+          if (-not (Test-Path 'crates/i18n/po/pt-BR.po')) {
+            throw 'Catalogo pt-BR ausente. A versao Sorriso Server Mail deve conter portugues brasileiro.'
+          }
       - name: Set up Python
         uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
