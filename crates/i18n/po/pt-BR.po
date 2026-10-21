@@ -678,3 +678,131 @@ msgstr "Caixa de Saída"
 
 msgid "All Folders"
 msgstr "Todas as Pastas"
+
+msgctxt "folder"
+msgid "Inbox"
+msgstr "Caixa de Entrada"
+
+msgctxt "folder"
+msgid "Drafts"
+msgstr "Rascunhos"
+
+msgctxt "folder"
+msgid "Sent Items"
+msgstr "Itens Enviados"
+
+msgctxt "folder"
+msgid "Deleted Items"
+msgstr "Itens Excluídos"
+
+msgctxt "folder"
+msgid "Archive"
+msgstr "Arquivo"
+
+msgctxt "folder"
+msgid "Junk Email"
+msgstr "Lixo Eletrônico"
+
+msgctxt "folder"
+msgid "Outbox"
+msgstr "Caixa de Saída"
+
+msgctxt "folder"
+msgid "Imported"
+msgstr "Importados"
+
+msgid "Local mailbox"
+msgstr "Caixa postal local"
+
+msgid "On this device only: no mail server"
+msgstr "Somente neste dispositivo: sem servidor de e-mail"
+
+msgid "Open & Export"
+msgstr "Abrir e Exportar"
+
+msgid "Signatures"
+msgstr "Assinaturas"
+
+msgid "Rules and Categories"
+msgstr "Regras e Categorias"
+
+msgid "Manage Rules"
+msgstr "Gerenciar Regras"
+
+msgid "What happens to mail as it arrives"
+msgstr "Defina o que fazer com os e-mails recebidos"
+
+msgid "Names and colours for sorting mail, events, people and tasks"
+msgstr "Nomes e cores para organizar e-mails, eventos, contatos e tarefas"
+
+msgid "Type your e-mail address and MailCraft finds the rest: Microsoft 365, Outlook.com, Google and other providers, or a mailbox on this device only"
+msgstr "Digite seu endereço de e-mail. O Sorriso Server Mail identifica as configurações para Microsoft 365, Outlook.com, Google e outros provedores, ou utiliza uma caixa postal local."
+
+msgid "Type your address. MailCraft finds your mail servers and how you sign in."
+msgstr "Digite seu e-mail. O Sorriso Server Mail identifica os servidores e o método de autenticação."
+
+msgid "Email address"
+msgstr "Endereço de e-mail"
+
+msgid "Connect"
+msgstr "Conectar"
+
+msgid "No account is connected to a mail server yet."
+msgstr "Nenhuma conta está conectada a um servidor de e-mail."
+
+msgid "Show Progress"
+msgstr "Exibir Progresso"
+
+msgid "Rename Folder"
+msgstr "Renomear Pasta"
+
+msgid "Move Folder"
+msgstr "Mover Pasta"
+
+msgid "Delete Folder"
+msgstr "Excluir Pasta"
+
+msgid "Mark All as Read"
+msgstr "Marcar Todas como Lidas"
+
+msgid "Run Rules Now"
+msgstr "Executar Regras Agora"
+
+msgid "Remove from Favorites"
+msgstr "Remover dos Favoritos"
+
+msgid "Export Folder"
+msgstr "Exportar Pasta"
+
+msgid "Folder Pane"
+msgstr "Painel de Pastas"
+
+msgid "Reading Pane"
+msgstr "Painel de Leitura"
+
+msgid "Show as Conversations"
+msgstr "Mostrar como Conversas"
+
+msgid "Message Preview"
+msgstr "Prévia da Mensagem"
+
+msgid "Reverse Sort"
+msgstr "Inverter Ordenação"
+
+msgid "Ribbon Layout"
+msgstr "Layout da Faixa de Opções"
+
+msgid "Theme"
+msgstr "Tema"
+
+msgid "Reminders Window"
+msgstr "Janela de Lembretes"
+
+msgid "Reset View"
+msgstr "Redefinir Exibição"
+
+msgid "Info"
+msgstr "Informações"
+
+msgid "Type your e-mail address"
+msgstr "Digite seu endereço de e-mail"
