@@ -71,5 +71,5 @@ A base MailCraft declara licença `MIT OR Apache-2.0`. Preservar os avisos exigi
 - O proprietário deseja distribuir Sorriso Server Mail a clientes com chave/licença válida por 1 ano e renovação anual.
 - Proposta: ativação por chave, painel administrativo, validação HTTPS, licenças assinadas digitalmente, prazo offline limitado, renovação sem reinstalação, bloqueio/revogação e transferência de dispositivo.
 - Recomendação de preservação de dados: após vencimento, manter acesso de leitura/exportação local, mesmo que recursos sincronizados sejam suspensos.
-- **Pendente aprovação:** métrica de licenciamento por computador, por usuário ou por empresa e quantidade de ativações. Sem implementação nesta etapa.
+- **Modelo aprovado:** uma licença por computador, com múltiplas contas de e-mail na mesma instalação e validade de 365 dias por ativação/renovação. Possibilidade futura de vender pacotes de licenças, cada uma vinculada a um dispositivo. Sem implementação nesta etapa.
 - A administração de assinaturas e a cobrança deverão ser desenvolvidas separadamente do cliente, com verificação de segurança e requisitos de privacidade/LGPD.
