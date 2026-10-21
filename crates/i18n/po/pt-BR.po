@@ -1196,3 +1196,6 @@ msgstr "Filtrar\ne-mails"
 
 msgid "Send/Receive\nAll Folders"
 msgstr "Enviar/receber\ntodas as pastas"
+
+msgid "MailCraft is open source (MIT or Apache-2.0). Every button here runs a command that scripts and agents can run too: see Search Commands."
+msgstr "O Sorriso Server Mail utiliza componentes de código aberto (MIT ou Apache-2.0). Os botões também executam comandos disponíveis para scripts e agentes; consulte Pesquisar comandos."
