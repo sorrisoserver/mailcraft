@@ -1,4 +1,4 @@
-# Identidade visual — Sorriso Server Mail (nome provisório)
+# Identidade visual — Sorriso Server Mail (nome oficial)
 
 ## Referência oficial
 A arte oficial foi fornecida pelo responsável pela Sorriso Server nesta conversa em 21/10/2026. É uma marca com fundo azul-marinho escuro, símbolo de nuvem e circuitos em azul/ciano, logotipo SORRISOSERVER e slogan "TRANSFORMANDO IDEIAS EM SOLUÇÕES WEB".
@@ -17,7 +17,7 @@ Ajustar valores finais após aprovação de visualização no aplicativo.
 2. Trabalhar somente na branch `branding-sorriso-server`; alterações na `main` exigem revisão.
 3. A identidade visual não deve alterar protocolos IMAP/SMTP, armazenamento de credenciais ou funcionalidades de e-mail.
 4. Aplicativo Windows será o primeiro alvo de testes, sem descartar suporte a outras plataformas.
-5. Nome de trabalho: **Sorriso Server Mail** — sujeito a aprovação.
+5. Nome oficial aprovado pelo responsável em 21/10/2026: **Sorriso Server Mail**.
 
 ## Primeiras tarefas
 - [x] Criar branch de personalização.
