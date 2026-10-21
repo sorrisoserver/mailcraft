@@ -58,3 +58,11 @@ A base MailCraft declara licença `MIT OR Apache-2.0`. Preservar os avisos exigi
 - `apps/mailcraft/build.rs` passou a reconhecer `assets/sorriso-server/sorriso-server.ico`, mantendo temporariamente o ícone original como fallback para não quebrar a compilação.
 - **A marca ainda não está embutida no executável**, porque os arquivos binários oficiais não estão versionados no GitHub; não distribuir builds atuais como versão personalizada concluída.
 - Não migrar caminhos de dados/credenciais nem alterar associações de arquivos antes de projetar migração segura e testar com perfis limpos.
+
+## Requisito obrigatório aprovado — idioma pt-BR (21/10/2026)
+- O aplicativo **Sorriso Server Mail** deve apresentar toda a interface ao usuário exclusivamente em **português do Brasil (pt-BR)**.
+- **Não oferecer seletor de idiomas** nas configurações; não permitir mudar para inglês.
+- Menus, botões, pastas padrão, mensagens, diálogos, notificações e telas de configuração devem estar traduzidos.
+- Textos técnicos que integram protocolos, formatos e comandos internos podem permanecer com identificadores originais para não quebrar compatibilidade.
+- A biblioteca atual só contém catálogos en/fr/de/es/it; logo, **a tradução pt-BR ainda não foi implementada**. Tradução parcial com retorno ao inglês não satisfaz o requisito.
+- Antes de considerar a versão pronta, criar o catálogo pt-BR completo, fixar o locale independentemente do idioma do Windows, remover o seletor, testar telas e adicionar um teste que identifique frases em inglês remanescentes.
