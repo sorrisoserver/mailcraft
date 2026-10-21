@@ -1485,18 +1485,9 @@ impl MailApp {
                 None => Err("`value` is light, dark or system".into()),
             },
             "ui.language" => {
-                let code = s("language").unwrap_or_default();
-                let lang = i18n::Lang::from_code(code);
-                if code.trim().eq_ignore_ascii_case(i18n::AUTO) {
-                    self.ui.language = i18n::AUTO.into();
-                } else if let Some(lang) = lang.filter(|l| *l == i18n::Lang::Pseudo || i18n::Lang::available().contains(l)) {
-                    self.ui.language = lang.code().into();
-                } else {
-                    let codes: Vec<&str> = i18n::Lang::available().iter().map(|l| l.code()).collect();
-                    return Some(Err(format!("`language` is auto or one of: {}", codes.join(", "))));
-                }
+                self.ui.language = "pt-BR".into();
                 self.apply_language();
-                Ok(json!({"language": self.ui.language, "inForce": self.language().code()}))
+                Ok(json!({"language": "pt-BR", "inForce": "pt-BR"}))
             }
             "ui.interfaceSize" => match p.get("value").and_then(Value::as_f64).and_then(theme::InterfaceSize::from_percent) {
                 Some(size) => {
@@ -2743,7 +2734,7 @@ impl MailApp {
     /// The interface language: the owner's choice (`ui.json`'s `language`), with the system's
     /// locale for Automatic.
     pub fn language(&self) -> i18n::Lang {
-        i18n::Lang::from_pref(&self.ui.language, self.services.system_locale.as_deref())
+        i18n::Lang::BrazilianPortuguese
     }
 
     /// Put the interface language in force: the window's text, the engine's, and the host's
