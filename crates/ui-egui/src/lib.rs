@@ -3215,7 +3215,7 @@ impl MailApp {
         agent_gate::show(self, &ctx);
         self.by_hand = false;
         self.refusal();
-        let title = format!("{} - MailCraft", self.title_stem());
+        let title = format!("{} - Sorriso Server Mail", self.title_stem());
         if title != self.sent_title {
             ctx.send_viewport_cmd(egui::ViewportCommand::Title(title.clone()));
             self.sent_title = title;
