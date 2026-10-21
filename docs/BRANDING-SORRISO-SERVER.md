@@ -52,3 +52,9 @@ A base MailCraft declara licença `MIT OR Apache-2.0`. Preservar os avisos exigi
 - Os arquivos de logo/ícone originais estão preparados fora do repositório e a integração dos binários ainda está pendente.
 - Pendente revisar diretórios de credenciais/dados, associação de arquivos, instalador, assinatura e atualização antes do uso real.
 - O workflow de teste Windows está configurado, mas isso não equivale a compilação aprovada.
+
+## Preparação do ícone oficial — implementação incremental
+- Adicionado `scripts/sorriso-brand-assets.py`, que recebe o arquivo da logo aprovada e exporta PNG e ICO sem redesenhar a marca.
+- `apps/mailcraft/build.rs` passou a reconhecer `assets/sorriso-server/sorriso-server.ico`, mantendo temporariamente o ícone original como fallback para não quebrar a compilação.
+- **A marca ainda não está embutida no executável**, porque os arquivos binários oficiais não estão versionados no GitHub; não distribuir builds atuais como versão personalizada concluída.
+- Não migrar caminhos de dados/credenciais nem alterar associações de arquivos antes de projetar migração segura e testar com perfis limpos.
