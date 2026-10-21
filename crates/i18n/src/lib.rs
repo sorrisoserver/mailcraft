@@ -96,7 +96,6 @@ impl Lang {
             Lang::Spanish => "Español",
             Lang::Italian => "Italiano",
             Lang::BrazilianPortuguese => "Português (Brasil)",
-            Lang::BrazilianPortuguese => "Português (Brasil)",
             Lang::Pseudo => "Pseudo",
         }
     }
