@@ -392,23 +392,6 @@ fn options(app: &mut MailApp, ui: &mut Ui, t: &Tokens) {
             }
         });
     });
-    row(ui, tl!("Language"), |ui| {
-        // Each language by its own name, so the owner finds theirs whatever the window speaks.
-        let name = |l: crate::i18n::Lang| l.picker_name();
-        let auto = app.ui.language == crate::i18n::AUTO;
-        let cur = app.language();
-        let shown = if auto { tl!("Automatic").to_string() } else { name(cur) };
-        egui::ComboBox::from_id_salt("opt_language").selected_text(shown).show_ui(ui, |ui| {
-            if ui.selectable_label(auto, tl!("Automatic")).clicked() {
-                let _ = app.run("ui.language", json!({"language": crate::i18n::AUTO}));
-            }
-            for l in crate::i18n::Lang::available() {
-                if ui.selectable_label(!auto && l == cur, name(l)).clicked() {
-                    let _ = app.run("ui.language", json!({"language": l.code()}));
-                }
-            }
-        });
-    });
     row(ui, tl!("Interface size"), |ui| {
         let cur = app.ui.interface_size.percent();
         egui::ComboBox::from_id_salt("opt_size").selected_text(format!("{cur}%")).show_ui(ui, |ui| {
