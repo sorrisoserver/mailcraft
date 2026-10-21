@@ -37,7 +37,7 @@ msgid "Reply"
 msgstr "Responder"
 
 msgid "Reply All"
-msgstr "Responder a Todos"
+msgstr "Responder a todos"
 
 msgid "Forward"
 msgstr "Encaminhar"
@@ -82,7 +82,7 @@ msgid "Accounts"
 msgstr "Contas"
 
 msgid "Add Account"
-msgstr "Adicionar Conta"
+msgstr "Adicionar conta"
 
 msgid "Save"
 msgstr "Salvar"
@@ -140,7 +140,7 @@ msgid "About MailCraft"
 msgstr "Sobre o Sorriso Server Mail"
 
 msgid "Account Settings"
-msgstr "Configurações da Conta"
+msgstr "Configurações da conta"
 
 msgid "Actions"
 msgstr "Ações"
@@ -395,7 +395,7 @@ msgid "E-mail"
 msgstr "E-mail"
 
 msgid "Empty Folder"
-msgstr "Esvaziar Pasta"
+msgstr "Esvaziar pasta"
 
 msgid "Export"
 msgstr "Exportar"
@@ -500,7 +500,7 @@ msgid "New Contact"
 msgstr "Novo Contato"
 
 msgid "New Folder"
-msgstr "Nova Pasta"
+msgstr "Nova pasta"
 
 msgid "New Meeting"
 msgstr "Nova Reunião"
@@ -629,7 +629,7 @@ msgid "Yes"
 msgstr "Sim"
 
 msgid "New Email"
-msgstr "Novo E-mail"
+msgstr "Novo e-mail"
 
 msgid "Search mail"
 msgstr "Pesquisar e-mails"
@@ -641,19 +641,19 @@ msgid "Search commands"
 msgstr "Pesquisar comandos"
 
 msgid "Copy Diagnostics"
-msgstr "Copiar Diagnóstico"
+msgstr "Copiar diagnóstico"
 
 msgid "Send / Receive"
 msgstr "Enviar / Receber"
 
 msgid "Send/Receive All Folders"
-msgstr "Enviar/Receber Todas as Pastas"
+msgstr "Enviar/receber todas as pastas"
 
 msgid "Unread/Read"
 msgstr "Não lida/Lida"
 
 msgid "Filter Email"
-msgstr "Filtrar E-mails"
+msgstr "Filtrar e-mails"
 
 msgid "Rules"
 msgstr "Regras"
@@ -751,55 +751,55 @@ msgid "No account is connected to a mail server yet."
 msgstr "Nenhuma conta está conectada a um servidor de e-mail."
 
 msgid "Show Progress"
-msgstr "Exibir Progresso"
+msgstr "Mostrar progresso"
 
 msgid "Rename Folder"
-msgstr "Renomear Pasta"
+msgstr "Renomear pasta"
 
 msgid "Move Folder"
-msgstr "Mover Pasta"
+msgstr "Mover pasta"
 
 msgid "Delete Folder"
-msgstr "Excluir Pasta"
+msgstr "Excluir pasta"
 
 msgid "Mark All as Read"
-msgstr "Marcar Todas como Lidas"
+msgstr "Marcar todas como lidas"
 
 msgid "Run Rules Now"
-msgstr "Executar Regras Agora"
+msgstr "Executar regras agora"
 
 msgid "Remove from Favorites"
-msgstr "Remover dos Favoritos"
+msgstr "Remover dos favoritos"
 
 msgid "Export Folder"
-msgstr "Exportar Pasta"
+msgstr "Exportar pasta"
 
 msgid "Folder Pane"
-msgstr "Painel de Pastas"
+msgstr "Painel de pastas"
 
 msgid "Reading Pane"
-msgstr "Painel de Leitura"
+msgstr "Painel de leitura"
 
 msgid "Show as Conversations"
-msgstr "Mostrar como Conversas"
+msgstr "Mostrar como conversas"
 
 msgid "Message Preview"
-msgstr "Prévia da Mensagem"
+msgstr "Prévia da mensagem"
 
 msgid "Reverse Sort"
-msgstr "Inverter Ordenação"
+msgstr "Inverter ordenação"
 
 msgid "Ribbon Layout"
-msgstr "Layout da Faixa de Opções"
+msgstr "Layout da faixa de opções"
 
 msgid "Theme"
 msgstr "Tema"
 
 msgid "Reminders Window"
-msgstr "Janela de Lembretes"
+msgstr "Janela de lembretes"
 
 msgid "Reset View"
-msgstr "Redefinir Exibição"
+msgstr "Redefinir exibição"
 
 msgid "Info"
 msgstr "Informações"
@@ -991,7 +991,7 @@ msgid "Contributors"
 msgstr "Colaboradores"
 
 msgid "Show Contributors"
-msgstr "Mostrar Colaboradores"
+msgstr "Mostrar colaboradores"
 
 msgid "What it is made of"
 msgstr "Como é desenvolvido"
@@ -1003,7 +1003,175 @@ msgid "Scripts and agents"
 msgstr "Scripts e agentes"
 
 msgid "Search Commands"
-msgstr "Pesquisar Comandos"
+msgstr "Pesquisar comandos"
 
 msgid "No rules yet."
 msgstr "Nenhuma regra cadastrada."
+
+msgid "Choose the kind of account"
+msgstr "Escolha o tipo de conta"
+
+msgid "Work or school mail"
+msgstr "E-mail corporativo ou escolar"
+
+msgid "Also Hotmail, Live and MSN"
+msgstr "Também Hotmail, Live e MSN"
+
+msgid "Gmail and Google Workspace"
+msgstr "Gmail e Google Workspace"
+
+msgid "Yahoo Mail"
+msgstr "E-mail Yahoo"
+
+msgid "Other (IMAP)"
+msgstr "Outro (IMAP)"
+
+msgid "Other mail server"
+msgstr "Outro servidor de e-mail"
+
+msgid "This device only"
+msgstr "Somente neste dispositivo"
+
+msgid "A mailbox kept here, with no mail server"
+msgstr "Caixa postal armazenada aqui, sem servidor de e-mail"
+
+msgid "Not kept anywhere yet: use Open & Export › Save Mailbox As."
+msgstr "Ainda não foi salva. Use Abrir e Exportar › Salvar Caixa Postal Como."
+
+msgid "Kept in {path}, saved as you go."
+msgstr "Armazenada em {path}, com salvamento automático."
+
+msgid "Messages (.eml, .mbox), calendars (.ics) and contacts (.vcf)"
+msgstr "Mensagens (.eml, .mbox), calendários (.ics) e contatos (.vcf)"
+
+msgid "Replace what is open with a .mailcraft file"
+msgstr "Substituir a caixa aberta por um arquivo .mailcraft"
+
+msgid "Everything here in one .mailcraft file"
+msgstr "Salvar todos os dados em um arquivo .mailcraft"
+
+msgid "The messages of the folder in view, as .mbox"
+msgstr "Mensagens da pasta atual em formato .mbox"
+
+msgid "Every event and task, as .ics"
+msgstr "Todos os eventos e tarefas em formato .ics"
+
+msgid "Every contact, as .vcf"
+msgstr "Todos os contatos em formato .vcf"
+
+msgid "Invented mail, meetings, people and tasks to try things on"
+msgstr "E-mails, reuniões, contatos e tarefas fictícios para testes"
+
+msgid "Nothing in it: replaces what is open here"
+msgstr "Caixa vazia: substitui a caixa postal aberta"
+
+msgid "Bookshop newsletters"
+msgstr "Boletins da livraria"
+
+msgid "Red category"
+msgstr "Categoria vermelha"
+
+msgid "Orange category"
+msgstr "Categoria laranja"
+
+msgid "Yellow category"
+msgstr "Categoria amarela"
+
+msgid "Green category"
+msgstr "Categoria verde"
+
+msgid "Blue category"
+msgstr "Categoria azul"
+
+msgid "Purple category"
+msgstr "Categoria roxa"
+
+msgid "New category"
+msgstr "Nova categoria"
+
+msgid "Set importance"
+msgstr "Definir importância"
+
+msgid "Flag"
+msgstr "Sinalizar"
+
+msgid "Mark as read"
+msgstr "Marcar como lida"
+
+msgid "Send / Receive All Folders"
+msgstr "Enviar/receber todas as pastas"
+
+msgid "MailCraft is open source (MIT or Apache-2.0). Every button here runs a command that scripts and agents can run too; see Search Commands."
+msgstr "O Sorriso Server Mail é baseado em software de código aberto (MIT ou Apache-2.0). Os botões também executam comandos acessíveis por scripts e agentes; consulte Pesquisar comandos."
+
+msgid "Desktop alerts can't be shown: this copy of MailCraft wasn't installed with its installer (.msi), so Windows doesn't know it."
+msgstr "As notificações não estão disponíveis porque esta versão de teste do Sorriso Server Mail não foi instalada pelo instalador (.msi) do Windows."
+
+msgid "No senders are remembered. \"Always download pictures from\" above a message adds its sender or its sender's domain here."
+msgstr "Nenhum remetente foi salvo. A opção de sempre baixar imagens de um remetente adiciona seu endereço ou domínio aqui."
+
+msgid "No downloaded pictures are kept on this computer."
+msgstr "Não há imagens baixadas armazenadas neste computador."
+
+msgid "The one this build came with"
+msgstr "A identificação incluída nesta versão"
+
+msgid "Every 5 minutes"
+msgstr "A cada 5 minutos"
+
+msgid "Show week numbers in the Month view and the date navigator"
+msgstr "Mostrar números das semanas na exibição mensal e no calendário"
+
+msgid "Delete meeting requests from the Inbox after responding"
+msgstr "Excluir convites de reunião da Caixa de Entrada após responder"
+
+msgid "Time zone"
+msgstr "Fuso horário"
+
+msgid "Second time zone"
+msgstr "Segundo fuso horário"
+
+msgid "Show in the time bar"
+msgstr "Mostrar na barra de horários"
+
+msgid "This computer's, wherever it goes"
+msgstr "Usar o fuso horário deste computador"
+
+msgid "In a plain-text message"
+msgstr "Em uma mensagem de texto simples"
+
+msgid "The logo is the signature's first picture: add one with Insert Picture."
+msgstr "O logotipo é a primeira imagem da assinatura: adicione-o usando Inserir Imagem."
+
+msgid "Phone"
+msgstr "Telefone"
+
+msgid "Signatures are kept on this computer. They can't be kept in step with Outlook: on another device set them up there, or paste one from Outlook on the web (Settings › Signatures)."
+msgstr "As assinaturas ficam armazenadas neste computador e não são sincronizadas com o Outlook. Em outro dispositivo, configure-as novamente ou copie-as do Outlook na Web (Configurações › Assinaturas)."
+
+msgid "Choose Default Signature"
+msgstr "Escolher assinatura padrão"
+
+msgid "Add a mail server account in File › Add Account to send and receive."
+msgstr "Adicione uma conta de servidor em Arquivo › Adicionar Conta para enviar e receber."
+
+msgid "User name"
+msgstr "Nome de usuário"
+
+msgid "Leave empty to keep the one in use"
+msgstr "Deixe em branco para manter a senha atual"
+
+msgid "Usually the whole address"
+msgstr "Normalmente o endereço de e-mail completo"
+
+msgid "Incoming mail (IMAP)"
+msgstr "Servidor de entrada (IMAP)"
+
+msgid "Outgoing mail (SMTP)"
+msgstr "Servidor de saída (SMTP)"
+
+msgid "Pinned"
+msgstr "Fixadas"
+
+msgid "Unpinned"
+msgstr "Não fixadas"
