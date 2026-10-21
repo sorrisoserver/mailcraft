@@ -1,0 +1,136 @@
+# Sorriso Server Mail — tradução inicial pt-BR.
+# Catálogo em expansão; entradas ausentes permanecem no idioma da base até revisão.
+msgid ""
+msgstr ""
+"Project-Id-Version: Sorriso Server Mail\n"
+"Language: pt-BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "MailCraft"
+msgstr "Sorriso Server Mail"
+
+msgid "Inbox"
+msgstr "Caixa de Entrada"
+
+msgid "Sent Items"
+msgstr "Itens Enviados"
+
+msgid "Drafts"
+msgstr "Rascunhos"
+
+msgid "Deleted Items"
+msgstr "Itens Excluídos"
+
+msgid "Junk Email"
+msgstr "Lixo Eletrônico"
+
+msgid "Archive"
+msgstr "Arquivo"
+
+msgid "New Mail"
+msgstr "Novo E-mail"
+
+msgid "Reply"
+msgstr "Responder"
+
+msgid "Reply All"
+msgstr "Responder a Todos"
+
+msgid "Forward"
+msgstr "Encaminhar"
+
+msgid "Send"
+msgstr "Enviar"
+
+msgid "Receive"
+msgstr "Receber"
+
+msgid "Search"
+msgstr "Pesquisar"
+
+msgid "File"
+msgstr "Arquivo"
+
+msgid "Home"
+msgstr "Início"
+
+msgid "View"
+msgstr "Exibir"
+
+msgid "Folder"
+msgstr "Pasta"
+
+msgid "Calendar"
+msgstr "Calendário"
+
+msgid "People"
+msgstr "Pessoas"
+
+msgid "Tasks"
+msgstr "Tarefas"
+
+msgid "Options"
+msgstr "Opções"
+
+msgid "Settings"
+msgstr "Configurações"
+
+msgid "Accounts"
+msgstr "Contas"
+
+msgid "Add Account"
+msgstr "Adicionar Conta"
+
+msgid "Save"
+msgstr "Salvar"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Delete"
+msgstr "Excluir"
+
+msgid "Close"
+msgstr "Fechar"
+
+msgid "About"
+msgstr "Sobre"
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "Mailbox"
+msgstr "Caixa Postal"
+
+msgid "No messages"
+msgstr "Nenhuma mensagem"
+
+msgid "Subject"
+msgstr "Assunto"
+
+msgid "From"
+msgstr "De"
+
+msgid "To"
+msgstr "Para"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "Attachments"
+msgstr "Anexos"
+
+msgid "Signature"
+msgstr "Assinatura"
+
+msgid "Print"
+msgstr "Imprimir"
+
+msgid "Help"
+msgstr "Ajuda"
+
+msgid "Refresh"
+msgstr "Atualizar"
