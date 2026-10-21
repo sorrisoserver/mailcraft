@@ -28,7 +28,7 @@ msgid "Junk Email"
 msgstr "Lixo Eletrônico"
 
 msgid "Archive"
-msgstr "Arquivo"
+msgstr "Arquivar"
 
 msgid "New Mail"
 msgstr "Novo E-mail"
@@ -611,7 +611,7 @@ msgid "Undo"
 msgstr "Desfazer"
 
 msgid "Unread"
-msgstr "Não Lida"
+msgstr "Não Lidas"
 
 msgid "Username"
 msgstr "Nome de usuário"
@@ -627,3 +627,54 @@ msgstr "Ontem"
 
 msgid "Yes"
 msgstr "Sim"
+
+msgid "New Email"
+msgstr "Novo E-mail"
+
+msgid "Search mail"
+msgstr "Pesquisar e-mails"
+
+msgid "Search mail (try from:, has:attachment, is:unread)"
+msgstr "Pesquisar e-mails (ex.: from:, has:attachment, is:unread)"
+
+msgid "Search commands"
+msgstr "Pesquisar comandos"
+
+msgid "Copy Diagnostics"
+msgstr "Copiar Diagnóstico"
+
+msgid "Send / Receive"
+msgstr "Enviar / Receber"
+
+msgid "Send/Receive All Folders"
+msgstr "Enviar/Receber Todas as Pastas"
+
+msgid "Unread/Read"
+msgstr "Não lida/Lida"
+
+msgid "Filter Email"
+msgstr "Filtrar E-mails"
+
+msgid "Rules"
+msgstr "Regras"
+
+msgid "Pin"
+msgstr "Fixar"
+
+msgid "Related"
+msgstr "Relacionados"
+
+msgid "Current Folder"
+msgstr "Pasta Atual"
+
+msgid "Nothing here yet."
+msgstr "Ainda não há mensagens."
+
+msgid "Select an item to read"
+msgstr "Selecione um item para ler"
+
+msgid "Outbox"
+msgstr "Caixa de Saída"
+
+msgid "All Folders"
+msgstr "Todas as Pastas"
