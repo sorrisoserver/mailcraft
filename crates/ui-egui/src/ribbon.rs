@@ -246,12 +246,18 @@ impl Item {
 // Explicit pt-BR ribbon labels. Some ribbon items use embedded newlines and
 // differ from the one-line catalogue keys; keep this fallback for the branded build.
 fn sorriso_ribbon_label(label: &str) -> Option<&'static str> {
-    match label {
-        "New\nEmail" => Some("Novo\ne-mail"),
-        "Reply\nAll" => Some("Responder\na todos"),
-        "Unread/\nRead" => Some("Não lida/\nLida"),
-        "Filter\nEmail" => Some("Filtrar\ne-mails"),
-        "Send/Receive\nAll Folders" => Some("Enviar/receber\ntodas as pastas"),
+    // The ribbon declares most labels with embedded newlines (e.g. "Show\\nProgress").
+    // Normalize them before looking up the Brazilian Portuguese wording.
+    let normalized = label.replace('\\n', " ");
+    match normalized.as_str() {
+        "New Email" => Some("Novo e-mail"),
+        "Reply All" => Some("Responder a todos"),
+        "Unread/ Read" => Some("Não lida/Lida"),
+        "Filter Email" => Some("Filtrar e-mails"),
+        "Send/Receive All Folders" => Some("Enviar/receber todas as pastas"),
+        "Show Progress" => Some("Mostrar progresso"),
+        "Add Account" => Some("Adicionar conta"),
+        "Account Settings" => Some("Configurações da conta"),
         "New Folder" => Some("Nova pasta"),
         "Rename Folder" => Some("Renomear pasta"),
         "Move Folder" => Some("Mover pasta"),
@@ -260,7 +266,9 @@ fn sorriso_ribbon_label(label: &str) -> Option<&'static str> {
         "Run Rules Now" => Some("Executar regras agora"),
         "Empty Folder" => Some("Esvaziar pasta"),
         "Remove from Favorites" => Some("Remover dos favoritos"),
+        "Add to Favorites" => Some("Adicionar aos favoritos"),
         "Export Folder" => Some("Exportar pasta"),
+        "Import" => Some("Importar"),
         "Folder Pane" => Some("Painel de pastas"),
         "Reading Pane" => Some("Painel de leitura"),
         "Show as Conversations" => Some("Mostrar como conversas"),
@@ -268,15 +276,21 @@ fn sorriso_ribbon_label(label: &str) -> Option<&'static str> {
         "Arrange By" => Some("Organizar por"),
         "Reverse Sort" => Some("Inverter ordenação"),
         "Ribbon Layout" => Some("Layout da faixa de opções"),
+        "Theme" => Some("Tema"),
         "Reminders Window" => Some("Janela de lembretes"),
         "Reset View" => Some("Redefinir exibição"),
-        "Show Progress" => Some("Mostrar progresso"),
-        "Add Account" => Some("Adicionar conta"),
-        "Account Settings" => Some("Configurações da conta"),
         "Search Commands" => Some("Pesquisar comandos"),
-        "Search commands" => Some("Pesquisar comandos"),
         "About MailCraft" => Some("Sobre o Sorriso Server Mail"),
         "Copy Diagnostics" => Some("Copiar diagnóstico"),
+        "Move to Folder" => Some("Mover para pasta"),
+        "Interface Theme" => Some("Tema da interface"),
+        "Search commands" => Some("Pesquisar comandos"),
+        "Rules" => Some("Regras"),
+        "New Items" => Some("Novos itens"),
+        "Reply" => Some("Responder"),
+        "Forward" => Some("Encaminhar"),
+        "Move" => Some("Mover"),
+        "Pin" => Some("Fixar"),
         _ => None,
     }
 }
@@ -1787,7 +1801,21 @@ mod tests {
         ] {
             assert_eq!(sorriso_ribbon_label(english), Some(portuguese), "{english}");
         }
-        assert_eq!(sorriso_ribbon_label("Send/Receive\\nAll Folders"), Some("Enviar/receber\\ntodas as pastas"));
+        assert_eq!(sorriso_ribbon_label("Send/Receive\\nAll Folders"), Some("Enviar/receber todas as pastas"));
+        for (raw, expected) in [
+            ("Show\\nProgress", "Mostrar progresso"),
+            ("Add\\nAccount", "Adicionar conta"),
+            ("Account\\nSettings", "Configurações da conta"),
+            ("New\\nFolder", "Nova pasta"),
+            ("Rename\\nFolder", "Renomear pasta"),
+            ("Folder\\nPane", "Painel de pastas"),
+            ("Show as\\nConversations", "Mostrar como conversas"),
+            ("Search\\nCommands", "Pesquisar comandos"),
+            ("About\\nMailCraft", "Sobre o Sorriso Server Mail"),
+            ("Copy\\nDiagnostics", "Copiar diagnóstico"),
+        ] {
+            assert_eq!(sorriso_ribbon_label(raw), Some(expected));
+        }
     }
 
     /// Mail › Home in the order the simplified row has it, with its split buttons.
