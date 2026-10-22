@@ -994,10 +994,10 @@ msgid "Show Contributors"
 msgstr "Mostrar colaboradores"
 
 msgid "What it is made of"
-msgstr "Como é desenvolvido"
+msgstr "Tecnologias utilizadas"
 
 msgid "Your mail stays yours"
-msgstr "Seus e-mails continuam sendo seus"
+msgstr "Seus e-mails pertencem a você"
 
 msgid "Scripts and agents"
 msgstr "Scripts e agentes"
@@ -1199,3 +1199,24 @@ msgstr "Enviar/receber\ntodas as pastas"
 
 msgid "MailCraft is open source (MIT or Apache-2.0). Every button here runs a command that scripts and agents can run too: see Search Commands."
 msgstr "O Sorriso Server Mail utiliza componentes de código aberto (MIT ou Apache-2.0). Os botões também executam comandos disponíveis para scripts e agentes; consulte Pesquisar comandos."
+
+msgid "Mail, calendar, people and tasks, written from scratch in Rust. It runs natively on macOS, Windows, Linux and BSD, and in the browser."
+msgstr "E-mails, calendário, contatos e tarefas em um aplicativo desenvolvido em Rust, disponível para Windows e outras plataformas."
+
+msgid "Open source under the MIT License or the Apache License 2.0, at your option."
+msgstr "Este aplicativo utiliza código aberto licenciado sob MIT ou Apache 2.0, conforme aplicável."
+
+msgid "Version {version}"
+msgstr "Versão {version}"
+
+msgid "Made by its contributors:"
+msgstr "Desenvolvido com contribuições de:"
+
+msgid "The interface fonts are Inter, Source Sans 3 and JetBrains Mono (SIL Open Font License 1.1). Every icon is drawn in code and is original work. No artwork, fonts or text from other mail programs are included."
+msgstr "As fontes da interface são Inter, Source Sans 3 e JetBrains Mono (licença SIL Open Font License 1.1). Os ícones são desenhados em código."
+
+msgid "Messages are shown without running anything in them, and the pictures a message keeps on the web are downloaded only when you ask. Passwords are kept in memory only while the app is open."
+msgstr "As mensagens são exibidas sem executar seu conteúdo. As imagens remotas são baixadas somente mediante autorização. As senhas permanecem na memória enquanto o aplicativo estiver aberto."
+
+msgid "Everything the interface does is a command: {commands} of them, covering {percent}% of the feature catalog. The command line, the control channel and the MCP server run the same commands."
+msgstr "A interface oferece {commands} comandos, correspondentes a {percent}% do catálogo de recursos. Linha de comando, canal de controle e servidor MCP usam os mesmos comandos."
