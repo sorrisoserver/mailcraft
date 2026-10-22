@@ -103,7 +103,7 @@ msgid "Language"
 msgstr "Idioma"
 
 msgid "Mailbox"
-msgstr "Caixa Postal"
+msgstr "Caixa postal"
 
 msgid "No messages"
 msgstr "Nenhuma mensagem"
@@ -1331,3 +1331,60 @@ msgstr "Acompanhamento"
 
 msgid "No contacts yet."
 msgstr "Ainda não há contatos."
+
+msgid "No completed tasks yet."
+msgstr "Ainda não há tarefas concluídas."
+
+msgid "Write your signature"
+msgstr "Escreva sua assinatura"
+
+msgid "Thanks, Thursday at ten works for me. I'll bring the drawings."
+msgstr "Obrigado, quinta-feira às dez está ótimo. Levarei os documentos."
+
+msgid "select a task first"
+msgstr "selecione uma tarefa primeiro"
+
+msgid "Filter Tasks"
+msgstr "Filtrar tarefas"
+
+msgid "Send & Receive"
+msgstr "Enviar e receber"
+
+msgid "Right"
+msgstr "Direita"
+
+msgid "Bottom"
+msgstr "Inferior"
+
+msgid "Off"
+msgstr "Desativado"
+
+msgid "Classic Ribbon"
+msgstr "Faixa clássica"
+
+msgid "Simplified Ribbon"
+msgstr "Faixa simplificada"
+
+msgid "1 Line"
+msgstr "1 linha"
+
+msgid "2 Lines"
+msgstr "2 linhas"
+
+msgid "3 Lines"
+msgstr "3 linhas"
+
+msgid "Light"
+msgstr "Claro"
+
+msgid "Dark"
+msgstr "Escuro"
+
+msgid "Layout"
+msgstr "Layout"
+
+msgid "Arrangement"
+msgstr "Organização"
+
+msgid "Window"
+msgstr "Janela"
