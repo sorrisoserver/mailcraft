@@ -1770,6 +1770,26 @@ mod tests {
         assert_eq!(seen, 21);
     }
 
+    #[test]
+    fn sorriso_server_ribbon_labels_and_tooltips_are_in_portuguese() {
+        for (english, portuguese) in [
+            ("Show Progress", "Mostrar progresso"),
+            ("Add Account", "Adicionar conta"),
+            ("Account Settings", "Configurações da conta"),
+            ("New Folder", "Nova pasta"),
+            ("Rename Folder", "Renomear pasta"),
+            ("Folder Pane", "Painel de pastas"),
+            ("Reading Pane", "Painel de leitura"),
+            ("Show as Conversations", "Mostrar como conversas"),
+            ("Search Commands", "Pesquisar comandos"),
+            ("About MailCraft", "Sobre o Sorriso Server Mail"),
+            ("Copy Diagnostics", "Copiar diagnóstico"),
+        ] {
+            assert_eq!(sorriso_ribbon_label(english), Some(portuguese), "{english}");
+        }
+        assert_eq!(sorriso_ribbon_label("Send/Receive\\nAll Folders"), Some("Enviar/receber\\ntodas as pastas"));
+    }
+
     /// Mail › Home in the order the simplified row has it, with its split buttons.
     #[test]
     fn the_mail_row_is_in_order() {
