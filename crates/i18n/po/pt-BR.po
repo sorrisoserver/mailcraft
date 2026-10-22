@@ -494,7 +494,7 @@ msgid "New"
 msgstr "Novo"
 
 msgid "New Appointment"
-msgstr "Novo Compromisso"
+msgstr "Novo compromisso"
 
 msgid "New Contact"
 msgstr "Novo contato"
@@ -503,7 +503,7 @@ msgid "New Folder"
 msgstr "Nova pasta"
 
 msgid "New Meeting"
-msgstr "Nova Reunião"
+msgstr "Nova reunião"
 
 msgid "New Task"
 msgstr "Nova tarefa"
@@ -928,7 +928,7 @@ msgid "Save Mailbox As"
 msgstr "Salvar Caixa Postal Como"
 
 msgid "Save Calendar"
-msgstr "Salvar Calendário"
+msgstr "Salvar calendário"
 
 msgid "Export Contacts"
 msgstr "Exportar contatos"
@@ -1388,3 +1388,90 @@ msgstr "Organização"
 
 msgid "Window"
 msgstr "Janela"
+
+msgid "Next 7 Days"
+msgstr "Próximos 7 dias"
+
+msgid "Go to Date"
+msgstr "Ir para a data"
+
+msgid "Work Week"
+msgstr "Semana de trabalho"
+
+msgid "Junk"
+msgstr "Lixo eletrônico"
+
+msgid "Delete for Good"
+msgstr "Excluir definitivamente"
+
+msgid "Select a message first"
+msgstr "Selecione uma mensagem primeiro"
+
+msgid "select a message first"
+msgstr "selecione uma mensagem primeiro"
+
+msgid "Manage Rules…"
+msgstr "Gerenciar regras…"
+
+msgid "All Categories…"
+msgstr "Todas as categorias…"
+
+msgid "Clear All Categories"
+msgstr "Limpar todas as categorias"
+
+msgid "Clear Flag"
+msgstr "Remover sinalização"
+
+msgid "This Week"
+msgstr "Esta semana"
+
+msgid "Email Message"
+msgstr "Mensagem de e-mail"
+
+msgid "Contact"
+msgstr "Contato"
+
+msgid "Task"
+msgstr "Tarefa"
+
+msgid "Folder…"
+msgstr "Pasta…"
+
+msgid "Flagged"
+msgstr "Sinalizadas"
+
+msgid "Has Attachments"
+msgstr "Com anexos"
+
+msgid "To Me"
+msgstr "Para mim"
+
+msgid "Respond"
+msgstr "Responder"
+
+msgid "Names or addresses, separated by ;"
+msgstr "Nomes ou endereços, separados por ;"
+
+msgid "Optional"
+msgstr "Opcional"
+
+msgid "End"
+msgstr "Terminar"
+
+msgid "Location"
+msgstr "Local"
+
+msgid "Description"
+msgstr "Descrição"
+
+msgid "Title"
+msgstr "Título"
+
+msgid "Thu"
+msgstr "Qui"
+
+msgid "Insert"
+msgstr "Inserir"
+
+msgid "The folder is already empty"
+msgstr "A pasta já está vazia"
