@@ -243,13 +243,9 @@ impl Item {
     }
 }
 
-
 // Explicit pt-BR ribbon labels. Some ribbon items use embedded newlines and
 // differ from the one-line catalogue keys; keep this fallback for the branded build.
 fn sorriso_ribbon_label(label: &str) -> Option<&'static str> {
-    if crate::i18n::current() != crate::i18n::Lang::BrazilianPortuguese {
-        return None;
-    }
     match label {
         "New\nEmail" => Some("Novo\ne-mail"),
         "Reply\nAll" => Some("Responder\na todos"),
