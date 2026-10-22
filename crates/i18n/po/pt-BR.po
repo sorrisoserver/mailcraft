@@ -497,7 +497,7 @@ msgid "New Appointment"
 msgstr "Novo Compromisso"
 
 msgid "New Contact"
-msgstr "Novo Contato"
+msgstr "Novo contato"
 
 msgid "New Folder"
 msgstr "Nova pasta"
@@ -506,7 +506,7 @@ msgid "New Meeting"
 msgstr "Nova Reunião"
 
 msgid "New Task"
-msgstr "Nova Tarefa"
+msgstr "Nova tarefa"
 
 msgid "No"
 msgstr "Não"
@@ -931,7 +931,7 @@ msgid "Save Calendar"
 msgstr "Salvar Calendário"
 
 msgid "Export Contacts"
-msgstr "Exportar Contatos"
+msgstr "Exportar contatos"
 
 msgid "Sample Mailbox"
 msgstr "Caixa Postal de Exemplo"
@@ -1220,3 +1220,114 @@ msgstr "As mensagens são exibidas sem executar seu conteúdo. As imagens remota
 
 msgid "Everything the interface does is a command: {commands} of them, covering {percent}% of the feature catalog. The command line, the control channel and the MCP server run the same commands."
 msgstr "A interface oferece {commands} comandos, correspondentes a {percent}% do catálogo de recursos. Linha de comando, canal de controle e servidor MCP usam os mesmos comandos."
+
+msgid "First name"
+msgstr "Nome"
+
+msgid "Last name"
+msgstr "Sobrenome"
+
+msgid "Display name"
+msgstr "Nome de exibição"
+
+msgid "Shown as First Last when empty"
+msgstr "Exibido como Nome Sobrenome se estiver vazio"
+
+msgid "Company"
+msgstr "Empresa"
+
+msgid "Department"
+msgstr "Departamento"
+
+msgid "Work"
+msgstr "Trabalho"
+
+msgid "Street"
+msgstr "Rua"
+
+msgid "City"
+msgstr "Cidade"
+
+msgid "State or region"
+msgstr "Estado ou região"
+
+msgid "Postal code"
+msgstr "CEP"
+
+msgid "Country"
+msgstr "País"
+
+msgid "Favorite"
+msgstr "Favorito"
+
+msgid "Edit Contact"
+msgstr "Editar contato"
+
+msgid "No contacts yet"
+msgstr "Ainda não há contatos"
+
+msgid "My Tasks"
+msgstr "Minhas tarefas"
+
+msgid "Overdue"
+msgstr "Atrasadas"
+
+msgid "Completed"
+msgstr "Concluídas"
+
+msgid "Nothing to do here."
+msgstr "Não há tarefas aqui."
+
+msgid "My Calendars"
+msgstr "Meus calendários"
+
+msgid "Manage Task"
+msgstr "Gerenciar tarefa"
+
+msgid "Next Week"
+msgstr "Próxima semana"
+
+msgid "No Date"
+msgstr "Sem data"
+
+msgid "High Importance"
+msgstr "Alta importância"
+
+msgid "Low Importance"
+msgstr "Baixa importância"
+
+msgid "Tags"
+msgstr "Etiquetas"
+
+msgid "Current View"
+msgstr "Exibição atual"
+
+msgid "Clean Up"
+msgstr "Limpeza"
+
+msgid "Not available: {reason}"
+msgstr "Indisponível: {reason}"
+
+msgid "the folder is already empty"
+msgstr "a pasta já está vazia"
+
+msgid "Share"
+msgstr "Compartilhar"
+
+msgid "Communicate"
+msgstr "Comunicação"
+
+msgid "Mark Complete"
+msgstr "Marcar como concluída"
+
+msgid "Edit Task"
+msgstr "Editar tarefa"
+
+msgid "Filter"
+msgstr "Filtrar"
+
+msgid "Follow Up"
+msgstr "Acompanhamento"
+
+msgid "No contacts yet."
+msgstr "Ainda não há contatos."
