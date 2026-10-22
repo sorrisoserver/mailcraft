@@ -246,9 +246,9 @@ impl Item {
 // Explicit pt-BR ribbon labels. Some ribbon items use embedded newlines and
 // differ from the one-line catalogue keys; keep this fallback for the branded build.
 fn sorriso_ribbon_label(label: &str) -> Option<&'static str> {
-    // The ribbon declares most labels with embedded newlines (e.g. "Show\\nProgress").
+    // The ribbon declares most labels with embedded newlines (e.g. "Show\nProgress").
     // Normalize them before looking up the Brazilian Portuguese wording.
-    let normalized = label.replace('\\n', " ");
+    let normalized = label.replace('\n', " ");
     match normalized.as_str() {
         "New Email" => Some("Novo e-mail"),
         "Reply All" => Some("Responder a todos"),
@@ -1803,16 +1803,16 @@ mod tests {
         }
         assert_eq!(sorriso_ribbon_label("Send/Receive\\nAll Folders"), Some("Enviar/receber todas as pastas"));
         for (raw, expected) in [
-            ("Show\\nProgress", "Mostrar progresso"),
-            ("Add\\nAccount", "Adicionar conta"),
-            ("Account\\nSettings", "Configurações da conta"),
-            ("New\\nFolder", "Nova pasta"),
-            ("Rename\\nFolder", "Renomear pasta"),
-            ("Folder\\nPane", "Painel de pastas"),
-            ("Show as\\nConversations", "Mostrar como conversas"),
-            ("Search\\nCommands", "Pesquisar comandos"),
-            ("About\\nMailCraft", "Sobre o Sorriso Server Mail"),
-            ("Copy\\nDiagnostics", "Copiar diagnóstico"),
+            ("Show\nProgress", "Mostrar progresso"),
+            ("Add\nAccount", "Adicionar conta"),
+            ("Account\nSettings", "Configurações da conta"),
+            ("New\nFolder", "Nova pasta"),
+            ("Rename\nFolder", "Renomear pasta"),
+            ("Folder\nPane", "Painel de pastas"),
+            ("Show as\nConversations", "Mostrar como conversas"),
+            ("Search\nCommands", "Pesquisar comandos"),
+            ("About\nMailCraft", "Sobre o Sorriso Server Mail"),
+            ("Copy\nDiagnostics", "Copiar diagnóstico"),
         ] {
             assert_eq!(sorriso_ribbon_label(raw), Some(expected));
         }
