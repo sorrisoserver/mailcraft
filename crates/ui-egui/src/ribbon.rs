@@ -234,12 +234,54 @@ impl Item {
 
     /// The label on one line, in the interface language.
     fn name(&self) -> String {
-        tl!(self.label).replace("-\n", "-").replace("/\n", "/").replace('\n', " ")
+        sorriso_ribbon_label(self.label).unwrap_or(tl!(self.label)).replace("-\n", "-").replace("/\n", "/").replace('\n', " ")
     }
 
     /// What the tooltip calls it.
     fn tip_text(&self) -> String {
         if self.tip.is_empty() { self.name() } else { tl!(self.tip).to_string() }
+    }
+}
+
+
+// Explicit pt-BR ribbon labels. Some ribbon items use embedded newlines and
+// differ from the one-line catalogue keys; keep this fallback for the branded build.
+fn sorriso_ribbon_label(label: &str) -> Option<&'static str> {
+    if crate::i18n::current() != crate::i18n::Lang::BrazilianPortuguese {
+        return None;
+    }
+    match label {
+        "New\nEmail" => Some("Novo\ne-mail"),
+        "Reply\nAll" => Some("Responder\na todos"),
+        "Unread/\nRead" => Some("Não lida/\nLida"),
+        "Filter\nEmail" => Some("Filtrar\ne-mails"),
+        "Send/Receive\nAll Folders" => Some("Enviar/receber\ntodas as pastas"),
+        "New Folder" => Some("Nova pasta"),
+        "Rename Folder" => Some("Renomear pasta"),
+        "Move Folder" => Some("Mover pasta"),
+        "Delete Folder" => Some("Excluir pasta"),
+        "Mark All as Read" => Some("Marcar todas como lidas"),
+        "Run Rules Now" => Some("Executar regras agora"),
+        "Empty Folder" => Some("Esvaziar pasta"),
+        "Remove from Favorites" => Some("Remover dos favoritos"),
+        "Export Folder" => Some("Exportar pasta"),
+        "Folder Pane" => Some("Painel de pastas"),
+        "Reading Pane" => Some("Painel de leitura"),
+        "Show as Conversations" => Some("Mostrar como conversas"),
+        "Message Preview" => Some("Prévia da mensagem"),
+        "Arrange By" => Some("Organizar por"),
+        "Reverse Sort" => Some("Inverter ordenação"),
+        "Ribbon Layout" => Some("Layout da faixa de opções"),
+        "Reminders Window" => Some("Janela de lembretes"),
+        "Reset View" => Some("Redefinir exibição"),
+        "Show Progress" => Some("Mostrar progresso"),
+        "Add Account" => Some("Adicionar conta"),
+        "Account Settings" => Some("Configurações da conta"),
+        "Search Commands" => Some("Pesquisar comandos"),
+        "Search commands" => Some("Pesquisar comandos"),
+        "About MailCraft" => Some("Sobre o Sorriso Server Mail"),
+        "Copy Diagnostics" => Some("Copiar diagnóstico"),
+        _ => None,
     }
 }
 
@@ -1378,7 +1420,7 @@ fn simplified(app: &mut MailApp, ui: &mut Ui, t: &Tokens, tab: &Tab, area: Rect)
 
 /// A large button of the classic layout.
 fn classic_big(app: &mut MailApp, ui: &mut Ui, item: &Item) {
-    let label = tl!(item.label);
+    let label = sorriso_ribbon_label(item.label).unwrap_or(tl!(item.label));
     match (&item.command, item.menu) {
         (Some((command, params)), _) => {
             let on = app.enabled(command);
@@ -1411,7 +1453,7 @@ fn classic_column(app: &mut MailApp, ui: &mut Ui, items: &[&Item]) {
     }
     stack(ui, |ui| {
         for item in items {
-            let label = Some(tl!(item.label));
+            let label = Some(sorriso_ribbon_label(item.label).unwrap_or(tl!(item.label)));
             match (&item.command, item.menu) {
                 (Some((command, params)), _) => {
                     let on = app.enabled(command);
