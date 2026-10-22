@@ -88,3 +88,9 @@ A base MailCraft declara licença `MIT OR Apache-2.0`. Preservar os avisos exigi
 - Catálogo acrescentado com traduções `msgctxt "folder"`, exigidas pelo nome dos diretórios padrão.
 - **Bloqueio crítico identificado**: a versão Alpha salva dados em `%APPDATA%\\MailCraft` (não usar clientes reais até termos diretório isolado `Sorriso Server Mail`, migração opcional segura e testes). Preservar arquivos existentes; não mudar o caminho precipitadamente sem plano de migração.
 - Essas correções dependem de nova compilação e inspeção visual. Não declarar tradução integral concluída.
+
+## Preparação para produção — 22/10/2026
+- Corrigido `Item::tip_text` no ribbon para aplicar a mesma substituição pt-BR dos rótulos de comandos visuais; requer revisão de tooltips dinâmicos do motor.
+- Isolado diretório padrão de configurações no Windows para `%APPDATA%\\Sorriso Server Mail`, no macOS para `~/Library/Application Support/Sorriso Server Mail` e em Linux para `~/.config/sorriso-server-mail` (ou XDG). **Não faz migração automática dos dados já guardados em `MailCraft`.**
+- Antes de produção: verificar todos os caminhos dependentes; testar primeira instalação, persistência, leitura/reabertura de caixa postal, autenticação IMAP/SMTP, anexos, certificados, exportação e instalação/desinstalação; completar pt-BR; assinar binários; resolver CI e desenvolver licenciamento comercial anual.
+- Nunca cadastrar clientes reais até validar privacidade e isolamento dos dados; a versão Alpha continua sem licença comercial implementada.
