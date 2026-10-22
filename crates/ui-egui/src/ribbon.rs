@@ -1801,7 +1801,7 @@ mod tests {
         ] {
             assert_eq!(sorriso_ribbon_label(english), Some(portuguese), "{english}");
         }
-        assert_eq!(sorriso_ribbon_label("Send/Receive\\nAll Folders"), Some("Enviar/receber todas as pastas"));
+        assert_eq!(sorriso_ribbon_label("Send/Receive\nAll Folders"), Some("Enviar/receber todas as pastas"));
         for (raw, expected) in [
             ("Show\nProgress", "Mostrar progresso"),
             ("Add\nAccount", "Adicionar conta"),
