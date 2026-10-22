@@ -239,7 +239,7 @@ impl Item {
 
     /// What the tooltip calls it.
     fn tip_text(&self) -> String {
-        if self.tip.is_empty() { self.name() } else { tl!(self.tip).to_string() }
+        if self.tip.is_empty() { self.name() } else { sorriso_ribbon_label(self.tip).unwrap_or(tl!(self.tip)).to_string() }
     }
 }
 
