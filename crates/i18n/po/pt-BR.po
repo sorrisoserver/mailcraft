@@ -1450,7 +1450,7 @@ msgid "Respond"
 msgstr "Responder"
 
 msgid "Names or addresses, separated by ;"
-msgstr "Nomes ou endereços, separados por ;"
+msgstr "Nomes ou endereços separados por ;"
 
 msgid "Optional"
 msgstr "Opcional"
@@ -1475,3 +1475,36 @@ msgstr "Inserir"
 
 msgid "The folder is already empty"
 msgstr "A pasta já está vazia"
+
+msgid "Save & Close"
+msgstr "Salvar e fechar"
+
+msgid "Invite Attendees"
+msgstr "Convidar participantes"
+
+msgid "Tue"
+msgstr "Ter"
+
+msgid "Mon"
+msgstr "Seg"
+
+msgid "Wed"
+msgstr "Qua"
+
+msgid "Fri"
+msgstr "Sex"
+
+msgid "Sat"
+msgstr "Sáb"
+
+msgid "Sun"
+msgstr "Dom"
+
+msgid "Use YYYY-MM-DD"
+msgstr "Use DD/MM/AAAA"
+
+msgid "Organize"
+msgstr "Organizar"
+
+msgid "Go To"
+msgstr "Ir para"
