@@ -477,7 +477,7 @@ pub(crate) mod kit {
         let t = Tokens::get(ui.ctx());
         match Date::parse_iso(text) {
             Some(d) => {
-                ui.label(egui::RichText::new(tl!(d.weekday().short())).color(t.text_dim));
+                ui.label(egui::RichText::new(crate::dates::weekday_short(d.weekday())).color(t.text_dim));
             }
             None => date_hint(ui, text, required),
         }
