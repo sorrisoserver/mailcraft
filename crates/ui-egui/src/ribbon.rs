@@ -686,7 +686,10 @@ fn message(app: &MailApp) -> Tab {
                 Item::small_menu("fontColor", "fontColor", "Cor da fonte", "Cor da fonte", Menu::FontColor).at(1, 3).plain(),
                 Item::small("bold", "Bold", "Bold", "format.bold", no()).checked(look.bold && !look.plain).at(1, 2).plain(),
                 Item::small("italic", "Itálico", "Itálico", "format.italic", no()).checked(look.italic && !look.plain).at(1, 2).plain(),
-                Item::small("underline", "Sublinhado", "Sublinhado", "format.underline", no()).checked(look.underline && !look.plain).at(1, 2).plain(),
+                Item::small("underline", "Sublinhado", "Sublinhado", "format.underline", no())
+                    .checked(look.underline && !look.plain)
+                    .at(1, 2)
+                    .plain(),
                 Item::small("bullets", "Marcadores", "Marcadores", "format.bullets", no()).checked(look.bullets).at(1, 3).plain(),
                 Item::small("numbering", "Numeração", "Numeração", "format.numbering", no()).checked(look.numbering).at(1, 3).plain(),
                 Item::small("decreaseIndent", "Diminuir recuo", "Diminuir recuo", "format.outdent", no()).at(1, 4).plain(),
