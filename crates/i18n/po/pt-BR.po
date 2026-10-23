@@ -257,7 +257,7 @@ msgid "Attach"
 msgstr "Anexar"
 
 msgid "Attach File"
-msgstr "Anexar Arquivo"
+msgstr "Anexar arquivo"
 
 msgid "Attendees"
 msgstr "Participantes"
@@ -275,7 +275,7 @@ msgid "Back"
 msgstr "Voltar"
 
 msgid "Basic Text"
-msgstr "Texto Básico"
+msgstr "Texto básico"
 
 msgid "Birthday"
 msgstr "Aniversário"
@@ -344,7 +344,7 @@ msgid "Change the colour"
 msgstr "Alterar a cor"
 
 msgid "Check Names"
-msgstr "Verificar Nomes"
+msgstr "Verificar nomes"
 
 msgid "Check Now"
 msgstr "Verificar Agora"
@@ -1508,3 +1508,81 @@ msgstr "Organizar"
 
 msgid "Go To"
 msgstr "Ir para"
+
+msgid "Font Size"
+msgstr "Tamanho da fonte"
+
+msgid "Font Color"
+msgstr "Cor da fonte"
+
+msgid "Italic"
+msgstr "Itálico"
+
+msgid "Underline"
+msgstr "Sublinhado"
+
+msgid "Bullets"
+msgstr "Marcadores"
+
+msgid "Numbering"
+msgstr "Numeração"
+
+msgid "Increase Indent"
+msgstr "Aumentar recuo"
+
+msgid "Decrease Indent"
+msgstr "Diminuir recuo"
+
+msgid "Clear Formatting"
+msgstr "Limpar formatação"
+
+msgid "Plain Text"
+msgstr "Texto simples"
+
+msgid "Format as Plain Text"
+msgstr "Formatar como texto simples"
+
+msgid "Save Draft"
+msgstr "Salvar rascunho"
+
+msgid "Save draft"
+msgstr "Salvar rascunho"
+
+msgid "Discard"
+msgstr "Descartar"
+
+msgid "New message"
+msgstr "Nova mensagem"
+
+msgid "Write your message"
+msgstr "Escreva sua mensagem"
+
+msgid "Insert Link"
+msgstr "Inserir link"
+
+msgid "A web address, an email address or a phone number (tel:). With nothing selected, the address is put in as it is."
+msgstr "Informe um endereço da Web, um e-mail ou um número de telefone (tel:). Se nenhum texto estiver selecionado, o endereço será inserido como informado."
+
+msgid "Signatures…"
+msgstr "Assinaturas…"
+
+msgid "Signatures..."
+msgstr "Assinaturas…"
+
+msgid "Names"
+msgstr "Nomes"
+
+msgid "Include"
+msgstr "Incluir"
+
+msgid "Format"
+msgstr "Formato"
+
+msgid "Draft"
+msgstr "Rascunho"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Discard draft"
+msgstr "Descartar rascunho"
