@@ -679,28 +679,28 @@ fn message(app: &MailApp) -> Tab {
     Tab::of(vec![
         g("Send", vec![Item::big("send", "Send", "compose.send", no()).at(0, 1)]),
         g(
-            "Basic Text",
+            "Texto básico",
             vec![
                 Item::small_menu("font", "font", "Font", "Font", Menu::Font).at(1, 4).plain(),
-                Item::small_menu("fontSize", "fontSize", "Font Size", "Font Size", Menu::FontSize).at(1, 4).plain(),
-                Item::small_menu("fontColor", "fontColor", "Font Color", "Font Color", Menu::FontColor).at(1, 3).plain(),
+                Item::small_menu("fontSize", "fontSize", "Tamanho da fonte", "Tamanho da fonte", Menu::FontSize).at(1, 4).plain(),
+                Item::small_menu("fontColor", "fontColor", "Cor da fonte", "Cor da fonte", Menu::FontColor).at(1, 3).plain(),
                 Item::small("bold", "Bold", "Bold", "format.bold", no()).checked(look.bold && !look.plain).at(1, 2).plain(),
-                Item::small("italic", "Italic", "Italic", "format.italic", no()).checked(look.italic && !look.plain).at(1, 2).plain(),
-                Item::small("underline", "Underline", "Underline", "format.underline", no()).checked(look.underline && !look.plain).at(1, 2).plain(),
-                Item::small("bullets", "Bullets", "Bullets", "format.bullets", no()).checked(look.bullets).at(1, 3).plain(),
-                Item::small("numbering", "Numbering", "Numbering", "format.numbering", no()).checked(look.numbering).at(1, 3).plain(),
-                Item::small("decreaseIndent", "Decrease Indent", "Decrease Indent", "format.outdent", no()).at(1, 4).plain(),
-                Item::small("increaseIndent", "Increase Indent", "Increase Indent", "format.indent", no()).at(1, 4).plain(),
-                Item::small("clearFormatting", "Clear Formatting", "Clear All Formatting", "format.clear", no()).at(1, 5).plain(),
+                Item::small("italic", "Itálico", "Itálico", "format.italic", no()).checked(look.italic && !look.plain).at(1, 2).plain(),
+                Item::small("underline", "Sublinhado", "Sublinhado", "format.underline", no()).checked(look.underline && !look.plain).at(1, 2).plain(),
+                Item::small("bullets", "Marcadores", "Marcadores", "format.bullets", no()).checked(look.bullets).at(1, 3).plain(),
+                Item::small("numbering", "Numeração", "Numeração", "format.numbering", no()).checked(look.numbering).at(1, 3).plain(),
+                Item::small("decreaseIndent", "Diminuir recuo", "Diminuir recuo", "format.outdent", no()).at(1, 4).plain(),
+                Item::small("increaseIndent", "Aumentar recuo", "Aumentar recuo", "format.indent", no()).at(1, 4).plain(),
+                Item::small("clearFormatting", "Limpar formatação", "Limpar toda a formatação", "format.clear", no()).at(1, 5).plain(),
             ],
         ),
-        g("Names", vec![Item::big("checkNames", "Check\nNames", "compose.checkNames", no()).at(3, 4)]),
+        g("Nomes", vec![Item::big("checkNames", "Check\nNames", "compose.checkNames", no()).at(3, 4)]),
         g(
-            "Include",
+            "Incluir",
             vec![
                 Item::big("attach", "Attach\nFile", "ui.attach", no()).at(2, 2),
                 Item::big("insertLink", "Link", "compose.link", no()).checked(look.link && !look.plain).at(2, 3),
-                Item::big_menu("signature", "signature", "Signature", "Signature", Menu::Signature).at(2, 3),
+                Item::big_menu("signature", "signature", "Assinatura", "Assinatura", Menu::Signature).at(2, 3),
             ],
         ),
         g(
@@ -715,17 +715,17 @@ fn message(app: &MailApp) -> Tab {
             ],
         ),
         g(
-            "Format",
+            "Formato",
             vec![
                 Item::small("formatHtml", "HTML", "Format as HTML", "compose.formatHtml", no()).checked(!look.plain).at(5, 5),
-                Item::small("formatPlain", "Plain Text", "Format as Plain Text", "compose.formatPlain", no()).checked(look.plain).at(5, 5),
+                Item::small("formatPlain", "Texto simples", "Formatar como texto simples", "compose.formatPlain", no()).checked(look.plain).at(5, 5),
             ],
         ),
         g(
-            "Draft",
+            "Rascunho",
             vec![
                 Item::big("saveDraft", "Save\nDraft", "compose.saveDraft", no()).at(6, 2),
-                Item::big("discard", "Discard", "compose.discard", no()).at(6, 3).plain(),
+                Item::big("discard", "Descartar", "compose.discard", no()).at(6, 3).plain(),
                 Item::big("close", "Close", "compose.close", no()).at(6, 3),
             ],
         ),
@@ -1058,12 +1058,12 @@ fn menu_contents(ui: &mut Ui, app: &mut MailApp, menu: Menu) {
                 ui.label(tl!("No signatures yet"));
             }
             for name in &names {
-                if plain_item(ui, name) {
+                if plain_item(ui, if name == "Signature" { "Assinatura" } else { name }) {
                     let _ = app.run("compose.signature", json!({"name": name}));
                 }
             }
             ui.separator();
-            if plain_item(ui, tl!("Signatures…")) {
+            if plain_item(ui, "Assinaturas…") {
                 let _ = app.run("ui.backstage", json!({"value": true, "page": "signatures"}));
             }
         }
