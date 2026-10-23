@@ -623,7 +623,10 @@ pub(crate) fn contributors(ui: &mut Ui) {
 
 fn about(app: &mut MailApp, ui: &mut Ui, t: &Tokens) {
     heading(ui, tl!("About MailCraft"), t);
-    ui.label(egui::RichText::new(crate::i18n::fmt(tl!("Version {version}"), &[("version", concat!(env!("CARGO_PKG_VERSION"), " — Sorriso Alpha"))])).color(t.text_dim));
+    ui.label(
+        egui::RichText::new(crate::i18n::fmt(tl!("Version {version}"), &[("version", concat!(env!("CARGO_PKG_VERSION"), " — Sorriso Alpha"))]))
+            .color(t.text_dim),
+    );
     ui.label(tl!(
         "Mail, calendar, people and tasks, written from scratch in Rust. It runs natively on macOS, Windows, Linux and BSD, and in the browser."
     ));
