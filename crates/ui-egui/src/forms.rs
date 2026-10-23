@@ -488,15 +488,14 @@ pub(crate) mod kit {
         let day = parts.next()?.parse::<u8>().ok()?;
         let month = parts.next()?.parse::<u8>().ok()?;
         let year = parts.next()?.parse::<i32>().ok()?;
-        if parts.next().is_some() { return None; }
+        if parts.next().is_some() {
+            return None;
+        }
         Date::new(year, month, day)
     }
 
     fn local_date(text: &str) -> String {
-        Date::parse_iso(text).map_or_else(
-            || text.to_owned(),
-            |d| format!("{:02}/{:02}/{:04}", d.day, d.month, d.year),
-        )
+        Date::parse_iso(text).map_or_else(|| text.to_owned(), |d| format!("{:02}/{:02}/{:04}", d.day, d.month, d.year))
     }
 
     /// How to write a date, in red, after a date field whose text isn't one.
