@@ -1586,3 +1586,54 @@ msgstr "HTML"
 
 msgid "Discard draft"
 msgstr "Descartar rascunho"
+
+msgid "Pictures not downloaded."
+msgstr "Imagens não baixadas."
+
+msgid "They are on the web, and fetching them would tell the sender that you opened this message."
+msgstr "As imagens estão na internet; baixá-las pode informar ao remetente que você abriu esta mensagem."
+
+msgid "Download pictures"
+msgstr "Baixar imagens"
+
+msgid "Always download pictures from {sender}"
+msgstr "Sempre baixar imagens de {sender}"
+
+msgid "Double-click to open {name}; right-click to save it"
+msgstr "Clique duas vezes para abrir {name}; clique com o botão direito para salvar"
+
+msgid "{n} messages in this conversation:"
+msgstr "{n} mensagens nesta conversa:"
+
+msgid "{n} message in this conversation:"
+msgstr "{n} mensagem nesta conversa:"
+
+msgid "Checking the account…"
+msgstr "Verificando a conta…"
+
+msgid "Signing in to {server}"
+msgstr "Conectando ao servidor {server}"
+
+msgid "Your mail is downloading now. The first time can take a few minutes."
+msgstr "Seus e-mails estão sendo baixados. A primeira sincronização pode levar alguns minutos."
+
+msgid "{address} is set up"
+msgstr "A conta {address} foi configurada"
+
+msgid "Three Weeks Ago"
+msgstr "Há três semanas"
+
+msgid "Last Month"
+msgstr "Mês passado"
+
+msgid "Last Week"
+msgstr "Semana passada"
+
+msgid "Older"
+msgstr "Mais antigas"
+
+msgid "connection problem: the server took too long to answer"
+msgstr "Problema de conexão: o servidor demorou demais para responder"
+
+msgid "20 results in {scope}"
+msgstr "20 resultados em {scope}"
